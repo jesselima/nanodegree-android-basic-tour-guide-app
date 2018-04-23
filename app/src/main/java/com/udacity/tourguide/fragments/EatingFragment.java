@@ -14,6 +14,7 @@ import android.widget.ListView;
 import com.udacity.tourguide.MapViewActivity;
 import com.udacity.tourguide.R;
 import com.udacity.tourguide.adapters.PlaceAdapter;
+import com.udacity.tourguide.models.Location;
 import com.udacity.tourguide.models.Place;
 
 import org.json.JSONArray;
@@ -23,6 +24,7 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 
@@ -46,7 +48,7 @@ public class EatingFragment extends Fragment {
 
         final ArrayList<Place> places = new ArrayList<Place>();
 
-        String json = null;
+        String jsonStr = null;
         // TODO: Check if getResources() instead use of getApplicationContext
         try {
             InputStream is = getContext().getAssets().open("eating.json");
@@ -54,25 +56,28 @@ public class EatingFragment extends Fragment {
             byte[] buffer = new byte[size];
             is.read(buffer);
             is.close();
-            json = new String(buffer, "UTF-8");
+            jsonStr = new String(buffer, "UTF-8");
         } catch (IOException e) {
             e.printStackTrace();
         }
 
         try {
-            JSONObject obj = new JSONObject(json);
-            JSONArray jsonArray = obj.getJSONArray("places");
+            JSONObject jsonObj = new JSONObject(jsonStr);
+            JSONArray placesJsonArray = jsonObj.getJSONArray("places");
 
-            for (int i = 0; i < jsonArray.length(); i++) {
+            for (int i = 0; i < placesJsonArray.length(); i++) {
 
-                JSONObject placedata = jsonArray.getJSONObject(i);
+                JSONObject placeData = placesJsonArray.getJSONObject(i);
 
-                Place data = new Place(
-                        placedata.getString("name"),
-                        placedata.getString("marker")
+                String name = placeData.getString("name");
+                String marker = placeData.getString("marker");
 
-                );
-                Log.v("Test read JSON", String.valueOf(data));
+                JSONObject LatLng = placeData.getJSONObject("location");
+                Double lat = LatLng.getDouble("lat");
+                Double lng = LatLng.getDouble("lng");
+
+                Place data = new Place(name, marker, lat, lng);
+
                 places.add(data);
             }
 
@@ -90,9 +95,13 @@ public class EatingFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
 
-                Place place = places.get(position);
+                Double lat = places.get(position).getLat();
+                Double lng = places.get(position).getLng();
+
                 Intent intent = new Intent(getContext(), MapViewActivity.class);
-                getContext().startActivity(intent);
+                intent.putExtra("lat", lat);
+                intent.putExtra("lng", lng);
+                startActivity(intent);
             }
         });
         return rootView;

@@ -17,10 +17,10 @@ public class MapViewActivity extends AppCompatActivity implements OnMapReadyCall
     private MapView mapView;
     private GoogleMap gmap;
 
-    private Double lat = 37.386077; //37.3943566;
-    private Double lng = -122.08338723; //-122.072174; // 37.386077,-122.08338723
+    private Double lat;// = 37.386077; //37.3943566;
+    private Double lng;// = -122.08338723; //-122.072174; // 37.386077,-122.08338723
 
-    private static final String MAP_VIEW_BUNDLE_KEY = "AIzaSyDbHiaES6bb8CDOzvcNTjQUjUnNVCCtKIM";
+    private static final String MAP_VIEW_BUNDLE_KEY = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,9 +28,9 @@ public class MapViewActivity extends AppCompatActivity implements OnMapReadyCall
         setContentView(R.layout.activity_map_view);
 
 
-//        Bundle locationData = getIntent().getExtras();
-//        lat = locationData.getDouble("lat");
-//        lng = locationData.getDouble("lng");
+        Bundle locationData = getIntent().getExtras();
+        lat = locationData.getDouble("lat");
+        lng = locationData.getDouble("lng");
 
 //        Toolbar tb = findViewById(R.id.toolbar);
 //        setSupportActionBar(tb);
