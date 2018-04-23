@@ -1,0 +1,331 @@
+{
+  "status_code": 200,
+  "data": {
+    "places": [
+      {
+        "id": "poi:35843",
+        "level": "poi",
+        "rating": 0.0021919229134193,
+        "rating_local": 0.0021919229134193,
+        "quadkey": "023010230210331213",
+        "location": {
+          "lat": 37.381684,
+          "lng": -122.086221
+        },
+        "bounding_box": null,
+        "name": "Castro Street",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:35843",
+        "duration": 3600,
+        "marker": "eating",
+        "categories": [
+          "eating",
+          "shopping",
+          "sightseeing"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": "The main thoroughfare of Mountain View is the veritable cultural heart of the city. In the summer live concerts take place here.",
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      },
+      {
+        "id": "poi:20452351",
+        "level": "poi",
+        "rating": 0.002,
+        "rating_local": 0.002,
+        "quadkey": "023010230210301002",
+        "location": {
+          "lat": 37.4033193,
+          "lng": -122.1119138
+        },
+        "bounding_box": null,
+        "name": "Paul Martin's American Grill",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:20452351",
+        "duration": 3600,
+        "marker": "eating:restaurant:regional",
+        "categories": [
+          "eating"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": null,
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      },
+      {
+        "id": "poi:693151",
+        "level": "poi",
+        "rating": 0.0016224725041148,
+        "rating_local": 0.0016224725041148,
+        "quadkey": "023010230211202002",
+        "location": {
+          "lat": 37.3946069,
+          "lng": -122.0787279
+        },
+        "bounding_box": null,
+        "name": "Asian Box",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:693151",
+        "duration": 3600,
+        "marker": "eating:restaurant:asian",
+        "categories": [
+          "eating"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": null,
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      },
+      {
+        "id": "poi:17697254",
+        "level": "poi",
+        "rating": 0.0016224725041148,
+        "rating_local": 0.0016224725041148,
+        "quadkey": "023010230210301020",
+        "location": {
+          "lat": 37.4026573,
+          "lng": -122.1121896
+        },
+        "bounding_box": null,
+        "name": "The Pizza Studio",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:17697254",
+        "duration": 3600,
+        "marker": "eating:restaurant:pizza",
+        "categories": [
+          "eating"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": null,
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      },
+      {
+        "id": "poi:515887",
+        "level": "poi",
+        "rating": 0.0016224725041148,
+        "rating_local": 0.0016224725041148,
+        "quadkey": "023010230211202002",
+        "location": {
+          "lat": 37.3945576,
+          "lng": -122.0787546
+        },
+        "bounding_box": null,
+        "name": "Blue Line Pizza",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:515887",
+        "duration": 3600,
+        "marker": "eating:restaurant:pizza",
+        "categories": [
+          "eating"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": null,
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      },
+      {
+        "id": "poi:2073226",
+        "level": "poi",
+        "rating": 0.0016224725041148,
+        "rating_local": 0.0016224725041148,
+        "quadkey": "023010230211202002",
+        "location": {
+          "lat": 37.394305,
+          "lng": -122.0790027
+        },
+        "bounding_box": null,
+        "name": "Amarin Thai Cuisine",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:2073226",
+        "duration": 3600,
+        "marker": "eating:restaurant:asian:thai",
+        "categories": [
+          "eating"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": null,
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      },
+      {
+        "id": "poi:895337",
+        "level": "poi",
+        "rating": 0.0015224358974359,
+        "rating_local": 0.0015224358974359,
+        "quadkey": "023010230210310010",
+        "location": {
+          "lat": 37.4041478,
+          "lng": -122.0980819
+        },
+        "bounding_box": null,
+        "name": "Rincón Sabroso",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:895337",
+        "duration": 3600,
+        "marker": "eating:restaurant:mexican",
+        "categories": [
+          "eating"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": null,
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      },
+      {
+        "id": "poi:776971",
+        "level": "poi",
+        "rating": 0.0015224358974359,
+        "rating_local": 0.0015224358974359,
+        "quadkey": "023010230211202020",
+        "location": {
+          "lat": 37.3931313,
+          "lng": -122.0796459
+        },
+        "bounding_box": null,
+        "name": "Bonchon Chicken",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:776971",
+        "duration": 3600,
+        "marker": "eating:restaurant:fastfood",
+        "categories": [
+          "eating"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": null,
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      },
+      {
+        "id": "poi:19732212",
+        "level": "poi",
+        "rating": 0.0015224358974359,
+        "rating_local": 0.0015224358974359,
+        "quadkey": "023010230210313113",
+        "location": {
+          "lat": 37.3946527,
+          "lng": -122.0804235
+        },
+        "bounding_box": null,
+        "name": "Chez TJ",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:19732212",
+        "duration": 3600,
+        "marker": "eating:restaurant:french",
+        "categories": [
+          "eating"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": null,
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      },
+      {
+        "id": "poi:701423",
+        "level": "poi",
+        "rating": 0.0015224358974359,
+        "rating_local": 0.0015224358974359,
+        "quadkey": "023010230211202003",
+        "location": {
+          "lat": 37.3943112,
+          "lng": -122.0784664
+        },
+        "bounding_box": null,
+        "name": "Chinese",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:701423",
+        "duration": 3600,
+        "marker": "eating:restaurant:asian:chinese",
+        "categories": [
+          "shopping",
+          "eating"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": null,
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      }
+    ]
+  },
+  "server_timestamp": "2018-04-22T19:19:28+00:00"
+}

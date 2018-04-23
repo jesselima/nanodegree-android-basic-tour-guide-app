@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string name="tab_tile_startups">Startups</string>
+    <string name="tab_tile_eating">Eating</string>
+    <string name="tab_tile_sports">Sports</string>
+    <string name="tab_tile_tour">Tour</string>
+    <string name="tab_tile_shopping">Shopping</string>
+</resources>
