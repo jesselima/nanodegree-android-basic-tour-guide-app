@@ -1,9 +1,11 @@
 package com.udacity.tourguide;
 
+import android.content.Intent;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 import com.udacity.tourguide.adapters.PlaceFragmentPageAdapter;
 
@@ -33,5 +35,10 @@ public class MainActivity extends AppCompatActivity {
         //      by calling onPageTitle()
         tabLayout.setupWithViewPager(viewPager);
 
+    }
+
+    public void goToMapView(View view){
+        Intent intent = new Intent(this, MapViewActivity.class);
+        startActivity(intent);
     }
 }

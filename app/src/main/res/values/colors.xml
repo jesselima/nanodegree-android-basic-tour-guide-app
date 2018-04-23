@@ -11,7 +11,9 @@
     <color name="primary_dark_color">#2F1D1A</color>
 
     <!-- Background color for app -->
-    <color name="tan_background">#FFF7DA</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_dark_grey">#3e3e3e</color>
+    <color name="color_light_grey">#838383</color>
 
     <!-- Background color for the numbers category -->
     <color name="category_numbers">#FD8E09</color>

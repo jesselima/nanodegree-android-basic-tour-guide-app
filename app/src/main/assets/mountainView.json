@@ -1,0 +1,170 @@
+{
+  "status_code": 200,
+  "data": {
+    "place": {
+      "id": "city:1801",
+      "level": "city",
+      "rating": 10.083125856481,
+      "rating_local": 10.083125856481,
+      "quadkey": "023010230210313321",
+      "location": {
+        "lat": 37.3893889,
+        "lng": -122.0832102
+      },
+      "bounding_box": {
+        "south": 37.3567552,
+        "west": -122.1175613,
+        "north": 37.4710169,
+        "east": -122.0450321
+      },
+      "name": "Mountain View, California",
+      "name_suffix": "California, USA",
+      "url": "https://travel.sygic.com/go/city:1801",
+      "duration": 3600,
+      "marker": "destination:city",
+      "categories": [],
+      "parent_ids": [
+        "region:25182",
+        "region:79",
+        "country:43",
+        "continent:6"
+      ],
+      "perex": "Mountain View is a city located in Santa Clara County, California, United States, named for its views of the Santa Cruz Mountains.",
+      "customer_rating": null,
+      "star_rating": null,
+      "star_rating_unofficial": null,
+      "thumbnail_url": "https://media-cdn.sygictraveldata.com/media/city:1801",
+      "tags": [],
+      "area": 50017105,
+      "address": null,
+      "admission": null,
+      "email": null,
+      "opening_hours": null,
+      "is_deleted": false,
+      "phone": null,
+      "description": {
+        "text": "Mountain View is a city located in Santa Clara County, California, United States, named for its views of the Santa Cruz Mountains. From its origins as a stagecoach stop, it grew to a large suburb with a pedestrian-friendly downtown and a population of 74,066. The city borders Palo Alto and the San Francisco Bay to the north, Los Altos to the south, and Moffett Federal Airfield and Sunnyvale to the east.\n\nSituated in the southern end of the Peninsula in the San Francisco Bay Area, Mountain View is home to many high technology companies. In 1956, Shockley Semiconductor Laboratory, the first company to develop silicon semiconductor devices in what came to be known as Silicon Valley, was established in the city by William Shockley.",
+        "provider": "wikipedia",
+        "translation_provider": null,
+        "link": "https://en.wikipedia.org/wiki/Mountain_View,_California",
+        "is_translated": true
+      },
+      "media_count": 2,
+      "main_media": {
+        "usage": {
+          "square": "m:1716579",
+          "video_preview": null,
+          "portrait": "m:1716579",
+          "landscape": "m:1716580"
+        },
+        "media": [
+          {
+            "original": {
+              "size": null,
+              "width": 1712,
+              "height": 2288
+            },
+            "suitability": [],
+            "url_template": "https://media-cdn.sygictraveldata.com/media/{size}/612664395a40232133447d33247d3831373136353739",
+            "created_at": "2015-03-17T20:10:23+0000",
+            "source": {
+              "provider": "wikipedia",
+              "name": "Wikimedia Commons",
+              "external_id": null
+            },
+            "type": "photo",
+            "created_by": null,
+            "url": "https://media-cdn.sygictraveldata.com/media/612664395a40232133447d33247d3831373136353739.jpg",
+            "quadkey": null,
+            "attribution": {
+              "title_url": "http://commons.wikimedia.org/wiki/File:Mountain_View,_City_Hall.jpg",
+              "license": null,
+              "other": null,
+              "author_url": "http://commons.wikimedia.org/wiki/User:Stansult",
+              "author": "stansult",
+              "title": "City Hall, Mountain View, CA",
+              "license_url": null
+            },
+            "location": null,
+            "id": "m:1716579"
+          },
+          {
+            "original": {
+              "size": null,
+              "width": 3648,
+              "height": 2736
+            },
+            "suitability": [],
+            "url_template": "https://media-cdn.sygictraveldata.com/media/{size}/612664395a40232133447d33247d3831373136353830",
+            "created_at": "2015-03-17T20:10:23+0000",
+            "source": {
+              "provider": "wikipedia",
+              "name": "Wikimedia Commons",
+              "external_id": null
+            },
+            "type": "photo",
+            "created_by": null,
+            "url": "https://media-cdn.sygictraveldata.com/media/612664395a40232133447d33247d3831373136353830.jpg",
+            "quadkey": "322332323223233332",
+            "attribution": {
+              "title_url": "http://commons.wikimedia.org/wiki/File:2009-0723-CA-MtnViewAdobe.jpg",
+              "license": null,
+              "other": null,
+              "author_url": "http://en.wikipedia.org/wiki/User:Bobak",
+              "author": "Bobak Ha'Eri",
+              "title": "Historic Adobe Building, Mountain View, California, USA.",
+              "license_url": null
+            },
+            "location": {
+              "lat": -122.076944,
+              "lng": 37.395833
+            },
+            "id": "m:1716580"
+          }
+        ]
+      },
+      "references": [
+        {
+          "id": 2136275,
+          "title": "Wikipedia",
+          "type": "wiki",
+          "language_id": "en",
+          "url": "https://en.wikipedia.org/wiki/Mountain_View,_California",
+          "supplier": "wiki",
+          "priority": 0,
+          "currency": null,
+          "price": null,
+          "flags": []
+        },
+        {
+          "id": 4901999,
+          "title": "About Mountain View (California)",
+          "type": "guide",
+          "language_id": "en",
+          "url": "https://guides.travel.sygic.com/production/en/Mountain_View_(California)",
+          "supplier": "wikivoyage",
+          "priority": 502,
+          "currency": null,
+          "price": null,
+          "flags": [
+            "destination_menu"
+          ]
+        }
+      ],
+      "external_ids": [
+        {
+          "id": "Q486860",
+          "type": "wikidata",
+          "language_id": null
+        },
+        {
+          "id": "en:Mountain View, California",
+          "type": "wikipedia",
+          "language_id": "en"
+        }
+      ],
+      "collection_count": 1
+    }
+  },
+  "server_timestamp": "2018-04-23T03:08:29+00:00"
+}
