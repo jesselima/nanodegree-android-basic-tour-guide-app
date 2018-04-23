@@ -13,11 +13,12 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapViewActivity extends AppCompatActivity implements OnMapReadyCallback{
+
     private MapView mapView;
     private GoogleMap gmap;
 
-    private double latitude = 37.386077; //37.3943566;
-    private double longitude = -122.08338723; //-122.072174; // 37.386077,-122.08338723
+    private Double lat = 37.386077; //37.3943566;
+    private Double lng = -122.08338723; //-122.072174; // 37.386077,-122.08338723
 
     private static final String MAP_VIEW_BUNDLE_KEY = "AIzaSyDbHiaES6bb8CDOzvcNTjQUjUnNVCCtKIM";
 
@@ -25,6 +26,11 @@ public class MapViewActivity extends AppCompatActivity implements OnMapReadyCall
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map_view);
+
+
+//        Bundle locationData = getIntent().getExtras();
+//        lat = locationData.getDouble("lat");
+//        lng = locationData.getDouble("lng");
 
 //        Toolbar tb = findViewById(R.id.toolbar);
 //        setSupportActionBar(tb);
@@ -104,7 +110,7 @@ public class MapViewActivity extends AppCompatActivity implements OnMapReadyCall
         uiSettings.setTiltGesturesEnabled(true);
         uiSettings.setZoomGesturesEnabled(true);
 
-        LatLng ny = new LatLng(latitude, longitude);
+        LatLng ny = new LatLng(lat, lng);
 
         MarkerOptions markerOptions = new MarkerOptions();
         markerOptions.position(ny);

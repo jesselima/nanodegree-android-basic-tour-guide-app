@@ -8,6 +8,8 @@ public class Startup {
     private String name;
     private String description;
     private int mImageResourceId;
+    private double lat;
+    private double lng;
 //    private String categories;
 //    private int founded_year;
 //    private String founders;
@@ -16,10 +18,12 @@ public class Startup {
 //    private String email;
 
 
-    public Startup(String name, String description, int mImageResourceId/*,  String categories, int founded_year, String founders, String operation_status, String site, String email*/) {
+    public Startup(String name, String description, int mImageResourceId, Double lat, Double lng/*,  String categories, int founded_year, String founders, String operation_status, String site, String email*/) {
         this.name = name;
         this.description = description;
         this.mImageResourceId = mImageResourceId;
+        this.lat = lat;
+        this.lng = lng;
 //        this.categories = categories;
 //        this.founded_year = founded_year;
 //        this.founders = founders;
@@ -51,6 +55,24 @@ public class Startup {
     public void setmImageResourceId(int mImageResourceId) {
         this.mImageResourceId = mImageResourceId;
     }
+
+    public Double getLat() {
+        return lat;
+    }
+
+    public void setLat(Double lat) {
+        this.lat = lat;
+    }
+
+
+    public Double getLng() {
+        return lng;
+    }
+
+    public void setLng(Double lng) {
+        this.lat = lng;
+    }
+
 
 //    public String getCategories() {
 //        return categories;

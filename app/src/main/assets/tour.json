@@ -1,7 +1,5 @@
 {
-  "status_code": 200,
-  "data": {
-    "places": [
+  "places": [
       {
         "id": "poi:35852",
         "level": "poi",
@@ -776,6 +774,4 @@
         "thumbnail_url": null
       }
     ]
-  },
-  "server_timestamp": "2018-04-23T17:29:58+00:00"
-}
+  }

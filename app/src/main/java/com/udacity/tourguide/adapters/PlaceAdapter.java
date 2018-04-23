@@ -1,9 +1,56 @@
 package com.udacity.tourguide.adapters;
 
-/**
- * Created by jesse on 22/04/18.
- * This is a part of the project TourGuide.
- */
-public class PlaceAdapter {
 
+import android.app.Activity;
+import android.content.Intent;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+import com.udacity.tourguide.MapViewActivity;
+import com.udacity.tourguide.R;
+import com.udacity.tourguide.models.Place;
+
+import java.util.ArrayList;
+
+public class PlaceAdapter extends ArrayAdapter<Place> {
+
+
+    public PlaceAdapter(Activity context, ArrayList<Place> places){
+        super(context, 0, places);
+    }
+
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        // Check if the existing view is being reused, otherwise inflate the view
+        View listItemView = convertView;
+        if (listItemView == null){
+            listItemView = LayoutInflater.from(getContext()).inflate(
+                    R.layout.place_list_item, parent, false);
+
+            Place currentPlace = getItem(position);
+
+            TextView name = listItemView.findViewById(R.id.text_view_place_name);
+            name.setText(currentPlace.getName());
+
+            TextView marker = listItemView.findViewById(R.id.text_view_place_marker);
+            marker.setText(currentPlace.getMarker());
+
+//            LinearLayout layoutItem = listItemView.findViewById(R.id.linear_layout_item_list_places);
+//            layoutItem.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                    Intent intent = new Intent(getContext(), MapViewActivity.class);
+//                    getContext().startActivity(intent);
+//                }
+//            });
+
+        }
+
+        return listItemView;
+    }
 }

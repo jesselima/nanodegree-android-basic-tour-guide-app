@@ -19,7 +19,6 @@ public class StartupAdapter extends ArrayAdapter<Startup> {
 
     public StartupAdapter(Activity context, ArrayList<Startup> startups, int imageResourceId){
         super(context, 0, startups);
-        mImageResourceId = imageResourceId;
     }
 
     @Override
@@ -28,7 +27,7 @@ public class StartupAdapter extends ArrayAdapter<Startup> {
         View listItemView = convertView;
         if (listItemView == null){
             listItemView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.list_item, parent, false);
+                    R.layout.startup_list_item, parent, false);
 
             Startup currentStartup = getItem(position);
 
