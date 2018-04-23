@@ -14,13 +14,13 @@
     <RelativeLayout
         android:id="@+id/text_container"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/list_item_height"
+        android:layout_height="@dimen/margin_16"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@id/image_view_item_list"
+        android:layout_toEndOf="@id/image_view_item_list"
         android:orientation="vertical"
-        android:paddingLeft="16dp">
+        android:paddingStart="16dp">
 
         <TextView
             android:id="@+id/text_view_name"
@@ -31,7 +31,7 @@
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@color/color_light_grey"
             android:textStyle="bold"
-            tools:text="Name" />
+            tools:text="Name"/>
 
         <TextView
             android:id="@+id/text_view_description"

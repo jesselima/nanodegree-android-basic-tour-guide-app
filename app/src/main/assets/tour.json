@@ -1,0 +1,781 @@
+{
+  "status_code": 200,
+  "data": {
+    "places": [
+      {
+        "id": "poi:35852",
+        "level": "poi",
+        "rating": 0.083226807369146,
+        "rating_local": 0.083226807369146,
+        "quadkey": "023010230210113322",
+        "location": {
+          "lat": 37.423293,
+          "lng": -122.085467
+        },
+        "bounding_box": null,
+        "name": "Googleplex",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:35852",
+        "duration": 3600,
+        "marker": "sightseeing",
+        "categories": [
+          "sightseeing"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": "The Googleplex is the corporate headquarters complex of Google, Inc. and its parent company Alphabet Inc., located at 1600 Amphitheatre…",
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": "https://media-cdn.sygictraveldata.com/media/poi:35852"
+      },
+      {
+        "id": "poi:56987",
+        "level": "poi",
+        "rating": 0.01562750430857,
+        "rating_local": 0.01562750430857,
+        "quadkey": "023010230211002332",
+        "location": {
+          "lat": 37.42334,
+          "lng": -122.07079
+        },
+        "bounding_box": null,
+        "name": "LinkedIn Headquarters",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:56987",
+        "duration": 1800,
+        "marker": "sightseeing",
+        "categories": [
+          "sightseeing"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": "LinkedIn is a business - and employment-oriented service that operates via websites and mobile apps.",
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": "https://media-cdn.sygictraveldata.com/media/poi:56987"
+      },
+      {
+        "id": "poi:543079",
+        "level": "poi",
+        "rating": 0.0095726689187393,
+        "rating_local": 0.0095726689187393,
+        "quadkey": "023010230210131032",
+        "location": {
+          "lat": 37.4183014,
+          "lng": -122.0878145
+        },
+        "bounding_box": null,
+        "name": "Android lawn statues",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:543079",
+        "duration": 900,
+        "marker": "sightseeing:monument",
+        "categories": [
+          "sightseeing"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": "The Android lawn statues are a series of large foam statues near the Googleplex in Mountain View, California, currently located at 1981…",
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": "https://media-cdn.sygictraveldata.com/media/poi:543079"
+      },
+      {
+        "id": "poi:35878",
+        "level": "poi",
+        "rating": 0.0068610072559343,
+        "rating_local": 0.0068610072559343,
+        "quadkey": "023010230210113311",
+        "location": {
+          "lat": 37.426778,
+          "lng": -122.080733
+        },
+        "bounding_box": null,
+        "name": "Shoreline Amphitheatre",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:35878",
+        "duration": 10800,
+        "marker": "discovering:theatre",
+        "categories": [
+          "going_out",
+          "sightseeing"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": "Shoreline Amphitheatre is an outdoor amphitheater located in Mountain View, California, in the San Francisco Bay Area.",
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": "https://media-cdn.sygictraveldata.com/media/poi:35878"
+      },
+      {
+        "id": "poi:541088",
+        "level": "poi",
+        "rating": 0.004624145597074,
+        "rating_local": 0.004624145597074,
+        "quadkey": "023010230210131100",
+        "location": {
+          "lat": 37.4218584,
+          "lng": -122.0847866
+        },
+        "bounding_box": null,
+        "name": "Stan The T-Rex",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:541088",
+        "duration": 900,
+        "marker": "sightseeing:monument",
+        "categories": [
+          "sightseeing"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": null,
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": "https://media-cdn.sygictraveldata.com/media/poi:541088"
+      },
+      {
+        "id": "poi:35859",
+        "level": "poi",
+        "rating": 0.0045258240590358,
+        "rating_local": 0.0045258240590358,
+        "quadkey": "023010230211202010",
+        "location": {
+          "lat": 37.3958457,
+          "lng": -122.07721
+        },
+        "bounding_box": null,
+        "name": "Historic Adobe Building",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:35859",
+        "duration": 3600,
+        "marker": "sightseeing",
+        "categories": [
+          "sightseeing"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": "The Historic Adobe Building, also known as the Mountain View Adobe, is a multi-purpose structure in Mountain View, California.",
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": "https://media-cdn.sygictraveldata.com/media/poi:35859"
+      },
+      {
+        "id": "poi:16634476",
+        "level": "poi",
+        "rating": 0.0043899944674935,
+        "rating_local": 0.0043899944674935,
+        "quadkey": "023010230210131030",
+        "location": {
+          "lat": 37.4194652,
+          "lng": -122.0875372
+        },
+        "bounding_box": null,
+        "name": "Google Visitor Center",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:16634476",
+        "duration": 3600,
+        "marker": "sightseeing",
+        "categories": [
+          "sightseeing"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": null,
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      },
+      {
+        "id": "poi:35855",
+        "level": "poi",
+        "rating": 0.0039590109656533,
+        "rating_local": 0.0039590109656533,
+        "quadkey": "023010230211221011",
+        "location": {
+          "lat": 37.387131,
+          "lng": -122.063617
+        },
+        "bounding_box": null,
+        "name": "Hacker Dojo",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:35855",
+        "duration": 3600,
+        "marker": "sightseeing",
+        "categories": [
+          "sightseeing"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": "Hacker Dojo is a 16,600-square-foot community center and hackerspace that is based in Santa Clara, California.",
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": "https://media-cdn.sygictraveldata.com/media/poi:35855"
+      },
+      {
+        "id": "poi:35877",
+        "level": "poi",
+        "rating": 0.0029315200764471,
+        "rating_local": 0.0029315200764471,
+        "quadkey": "023010230210301001",
+        "location": {
+          "lat": 37.4050179,
+          "lng": -122.1111245
+        },
+        "bounding_box": null,
+        "name": "Shockley's Laboratory",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:35877",
+        "duration": 3600,
+        "marker": "sightseeing:monument",
+        "categories": [
+          "sightseeing"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": "Shockley Semiconductor Laboratory, a division of Beckman Instruments, Inc., became in 1956 the first establishment, in what came to be…",
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      },
+      {
+        "id": "poi:35870",
+        "level": "poi",
+        "rating": 0.0025814834697682,
+        "rating_local": 0.0025814834697682,
+        "quadkey": "023010230210111232",
+        "location": {
+          "lat": 37.431456,
+          "lng": -122.0871
+        },
+        "bounding_box": null,
+        "name": "Rengstorff House",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:35870",
+        "duration": 3600,
+        "marker": "sightseeing",
+        "categories": [
+          "sightseeing"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": "The Rengstorff House was one of the first houses to be built in Mountain View, California.",
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      },
+      {
+        "id": "poi:35843",
+        "level": "poi",
+        "rating": 0.0021919229134193,
+        "rating_local": 0.0021919229134193,
+        "quadkey": "023010230210331213",
+        "location": {
+          "lat": 37.381684,
+          "lng": -122.086221
+        },
+        "bounding_box": null,
+        "name": "Castro Street",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:35843",
+        "duration": 3600,
+        "marker": "eating",
+        "categories": [
+          "eating",
+          "shopping",
+          "sightseeing"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": "The main thoroughfare of Mountain View is the veritable cultural heart of the city. In the summer live concerts take place here.",
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      },
+      {
+        "id": "poi:1519646",
+        "level": "poi",
+        "rating": 0.0014807692307692,
+        "rating_local": 0.0014807692307692,
+        "quadkey": "023010230210310133",
+        "location": {
+          "lat": 37.4015579,
+          "lng": -122.091192
+        },
+        "bounding_box": null,
+        "name": "South Bay Chinese Seventh-day Adventist Church",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:1519646",
+        "duration": 1800,
+        "marker": "other:place_of_worship",
+        "categories": [
+          "sightseeing"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": null,
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      },
+      {
+        "id": "poi:25056204",
+        "level": "poi",
+        "rating": 0.0014807692307692,
+        "rating_local": 0.0014807692307692,
+        "quadkey": "023010230210110203",
+        "location": {
+          "lat": 37.4336818,
+          "lng": -122.0999015
+        },
+        "bounding_box": null,
+        "name": "Palo Alto Baylands Nature Preserve Trail",
+        "name_suffix": "Palo Alto, USA",
+        "url": "https://travel.sygic.com/go/poi:25056204",
+        "duration": 3600,
+        "marker": "sightseeing",
+        "categories": [
+          "sightseeing"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "city:10856",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": null,
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      },
+      {
+        "id": "poi:398043",
+        "level": "poi",
+        "rating": 0.0010416666666667,
+        "rating_local": 0.0010416666666667,
+        "quadkey": "023010230211020223",
+        "location": {
+          "lat": 37.4142438,
+          "lng": -122.0786618
+        },
+        "bounding_box": null,
+        "name": "Sandwiches Place",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:398043",
+        "duration": 3600,
+        "marker": "eating:restaurant:fastfood:sandwiches",
+        "categories": [
+          "sightseeing",
+          "eating"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": null,
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      },
+      {
+        "id": "poi:689240",
+        "level": "poi",
+        "rating": 0.0010416666666667,
+        "rating_local": 0.0010416666666667,
+        "quadkey": "023010230210313321",
+        "location": {
+          "lat": 37.3892736,
+          "lng": -122.083445
+        },
+        "bounding_box": null,
+        "name": "Monument",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:689240",
+        "duration": 3600,
+        "marker": "sightseeing:monument",
+        "categories": [
+          "sightseeing"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": null,
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      },
+      {
+        "id": "poi:2066464",
+        "level": "poi",
+        "rating": 0.0010416666666667,
+        "rating_local": 0.0010416666666667,
+        "quadkey": "023010230210313311",
+        "location": {
+          "lat": 37.3909269,
+          "lng": -122.0803302
+        },
+        "bounding_box": null,
+        "name": "Attraction",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:2066464",
+        "duration": 3600,
+        "marker": "sightseeing",
+        "categories": [
+          "sightseeing"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": null,
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      },
+      {
+        "id": "poi:690074",
+        "level": "poi",
+        "rating": 0.0010416666666667,
+        "rating_local": 0.0010416666666667,
+        "quadkey": "023010230210313321",
+        "location": {
+          "lat": 37.3889058,
+          "lng": -122.083317
+        },
+        "bounding_box": null,
+        "name": "Monument",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:690074",
+        "duration": 3600,
+        "marker": "sightseeing:monument",
+        "categories": [
+          "sightseeing"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": null,
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      },
+      {
+        "id": "poi:1443904",
+        "level": "poi",
+        "rating": 0.0010416666666667,
+        "rating_local": 0.0010416666666667,
+        "quadkey": "023010230210313321",
+        "location": {
+          "lat": 37.3897325,
+          "lng": -122.0831772
+        },
+        "bounding_box": null,
+        "name": "Monument",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:1443904",
+        "duration": 3600,
+        "marker": "sightseeing:monument",
+        "categories": [
+          "sightseeing"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": null,
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      },
+      {
+        "id": "poi:1925744",
+        "level": "poi",
+        "rating": 0.001,
+        "rating_local": 0.001,
+        "quadkey": "023010230210310330",
+        "location": {
+          "lat": 37.3982506,
+          "lng": -122.0928482
+        },
+        "bounding_box": null,
+        "name": "The Rock United Pentecostal Church",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:1925744",
+        "duration": 1800,
+        "marker": "other:place_of_worship:church",
+        "categories": [
+          "sightseeing"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": null,
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      },
+      {
+        "id": "poi:19118064",
+        "level": "poi",
+        "rating": 0.001,
+        "rating_local": 0.001,
+        "quadkey": "023010230211203223",
+        "location": {
+          "lat": 37.3880944,
+          "lng": -122.0674955
+        },
+        "bounding_box": null,
+        "name": "Kingdom Hall of Jehovah's Witnesses",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:19118064",
+        "duration": 1800,
+        "marker": "other:place_of_worship",
+        "categories": [
+          "sightseeing"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": null,
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      },
+      {
+        "id": "poi:1067268",
+        "level": "poi",
+        "rating": 0.001,
+        "rating_local": 0.001,
+        "quadkey": "023010230211222203",
+        "location": {
+          "lat": 37.3727186,
+          "lng": -122.0785731
+        },
+        "bounding_box": null,
+        "name": "Saint Timothy Episcopal Church",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:1067268",
+        "duration": 1800,
+        "marker": "other:place_of_worship",
+        "categories": [
+          "sightseeing"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": null,
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      },
+      {
+        "id": "poi:1566852",
+        "level": "poi",
+        "rating": 0.001,
+        "rating_local": 0.001,
+        "quadkey": "023010230210133220",
+        "location": {
+          "lat": 37.4066405,
+          "lng": -122.0910117
+        },
+        "bounding_box": null,
+        "name": "Mountain View Spanish Seventh Day Adventist Church",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:1566852",
+        "duration": 1800,
+        "marker": "other:place_of_worship:church",
+        "categories": [
+          "sightseeing"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": null,
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      },
+      {
+        "id": "poi:1548353",
+        "level": "poi",
+        "rating": 0.001,
+        "rating_local": 0.001,
+        "quadkey": "023010230210132322",
+        "location": {
+          "lat": 37.4052091,
+          "lng": -122.0955394
+        },
+        "bounding_box": null,
+        "name": "Mountain View Japanese Seventh Day Adventist Church",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:1548353",
+        "duration": 1800,
+        "marker": "other:place_of_worship:church",
+        "categories": [
+          "sightseeing"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": null,
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      },
+      {
+        "id": "poi:1084006",
+        "level": "poi",
+        "rating": 0.001,
+        "rating_local": 0.001,
+        "quadkey": "023010230210132311",
+        "location": {
+          "lat": 37.4093843,
+          "lng": -122.0913515
+        },
+        "bounding_box": null,
+        "name": "San Ramon School",
+        "name_suffix": "Mountain View, USA",
+        "url": "https://travel.sygic.com/go/poi:1084006",
+        "duration": 3600,
+        "marker": "sightseeing",
+        "categories": [
+          "sightseeing"
+        ],
+        "parent_ids": [
+          "city:1801",
+          "region:25182",
+          "region:79",
+          "country:43",
+          "continent:6"
+        ],
+        "perex": null,
+        "customer_rating": null,
+        "star_rating": null,
+        "star_rating_unofficial": null,
+        "thumbnail_url": null
+      }
+    ]
+  },
+  "server_timestamp": "2018-04-23T17:29:58+00:00"
+}

@@ -8,6 +8,7 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.UiSettings;
+import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
@@ -15,8 +16,8 @@ public class MapViewActivity extends AppCompatActivity implements OnMapReadyCall
     private MapView mapView;
     private GoogleMap gmap;
 
-    private double latitude = 37.3943566;
-    private double longitude = -122.072174;
+    private double latitude = 37.386077; //37.3943566;
+    private double longitude = -122.08338723; //-122.072174; // 37.386077,-122.08338723
 
     private static final String MAP_VIEW_BUNDLE_KEY = "AIzaSyDbHiaES6bb8CDOzvcNTjQUjUnNVCCtKIM";
 
@@ -98,6 +99,10 @@ public class MapViewActivity extends AppCompatActivity implements OnMapReadyCall
         uiSettings.setMapToolbarEnabled(true);
         uiSettings.setCompassEnabled(true);
         uiSettings.setZoomControlsEnabled(true);
+        uiSettings.setRotateGesturesEnabled(true);
+        uiSettings.setScrollGesturesEnabled(true);
+        uiSettings.setTiltGesturesEnabled(true);
+        uiSettings.setZoomGesturesEnabled(true);
 
         LatLng ny = new LatLng(latitude, longitude);
 
@@ -105,7 +110,16 @@ public class MapViewActivity extends AppCompatActivity implements OnMapReadyCall
         markerOptions.position(ny);
         gmap.addMarker(markerOptions);
 
-        gmap.moveCamera(CameraUpdateFactory.newLatLng(ny));
+        CameraPosition.Builder camBuilder = CameraPosition.builder();
+        camBuilder.bearing(0);
+        camBuilder.tilt(30);
+        camBuilder.target(ny);
+        camBuilder.zoom(10);
+
+        CameraPosition cp = camBuilder.build();
+        gmap.moveCamera(CameraUpdateFactory.newCameraPosition(cp));
+
+
     }
 }
 

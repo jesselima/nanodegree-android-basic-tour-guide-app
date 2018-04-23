@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#2196F3</color>
-    <color name="colorPrimaryDark">#1976D2</color>
-    <color name="colorAccent">#FF5252</color>
-
-    <!-- Primary color of the app (shown in the app bar) -->
-    <color name="primary_color">#4A312A</color>
-
-    <!-- Primary dark color of the app (shown in the status bar) -->
-    <color name="primary_dark_color">#2F1D1A</color>
-
-    <!-- Background color for app -->
     <color name="color_white">#ffffff</color>
     <color name="color_dark_grey">#3e3e3e</color>
     <color name="color_light_grey">#838383</color>
+    <color name="colorPrimary">#1e1e1e</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#67a900</color>
+    <color name="colorPrimaryLight">#BBDEFB</color>
+    <color name="cardBackground">#c9e6e6e6</color>
 
-    <!-- Background color for the numbers category -->
-    <color name="category_numbers">#FD8E09</color>
+    <color name="cardBackgroundAlpha">#bfffffff</color>
+    <color name="view_image_overlay">#d3ffffff</color>
 
-    <!-- Background color for the family members category -->
-    <color name="category_family">#379237</color>
+    <color name="buttonText">#FFFFFF</color>
+    <color name="textColorWhite">#FFFFFF</color>
+    <color name="textColorCardHighlights">#565656</color>
+    <color name="textColorBlack">#000000</color>
+    <color name="divider">#cfcfcf</color>
+    <color name="buttonAlertBackground">#006ec6</color>
+    <color name="callToActionText">#67a900</color>
+    <color name="buttonDefaultGrey">#313131</color>
+    <color name="colorAlpha0">#85ffffff</color>
 
-    <!-- Background color for the colors category -->
-    <color name="category_colors">#8800A0</color>
-
-    <!-- Background color for the phrases category -->
-    <color name="category_phrases">#16AFCA</color>
 </resources>
