@@ -76,7 +76,9 @@ public class EatingFragment extends Fragment {
                 Double lat = LatLng.getDouble("lat");
                 Double lng = LatLng.getDouble("lng");
 
-                Place data = new Place(name, marker, lat, lng);
+                String openingHours = placeData.getString("opening_hours");
+
+                Place data = new Place(name, marker, lat, lng, openingHours);
 
                 places.add(data);
             }

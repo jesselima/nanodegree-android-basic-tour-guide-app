@@ -64,7 +64,7 @@
                         android:layout_marginTop="@dimen/layout_margin8"
                         android:layout_marginBottom="@dimen/layout_margin8"
                         android:text="The answer is pretty easy. It concentrates a large ecosystem of Startups. But Startups are made of technology and people. People also love to eat, doing sports and have fun around the city right? \n\n
-That's why we are here. Find out attractions in Mountain View."
+That's why we are here. Find out attractions in Mountain View like in the pictures below."
                         android:textAllCaps="false"
                         android:textSize="@dimen/text_size_16"/>
 
@@ -74,11 +74,11 @@ That's why we are here. Find out attractions in Mountain View."
                             android:layout_marginBottom="@dimen/layout_margin8"
                             android:padding="@dimen/layout_margin8"
                             android:textAlignment="center"
-                            android:text="See Startup list and Attractions!"
+                            android:text="See Startup list and attractions!"
                             android:layout_gravity="bottom"
                             android:gravity="bottom"
                             android:textColor="@color/callToActionText"
-                            android:textSize="@dimen/text_size_body_14"
+                            android:textSize="@dimen/text_size_20"
                             android:textStyle="bold"/>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>

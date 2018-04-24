@@ -40,14 +40,8 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
             TextView marker = listItemView.findViewById(R.id.text_view_place_marker);
             marker.setText(currentPlace.getMarker());
 
-//            LinearLayout layoutItem = listItemView.findViewById(R.id.linear_layout_item_list_places);
-//            layoutItem.setOnClickListener(new View.OnClickListener() {
-//                @Override
-//                public void onClick(View v) {
-//                    Intent intent = new Intent(getContext(), MapViewActivity.class);
-//                    getContext().startActivity(intent);
-//                }
-//            });
+            TextView openingHours = listItemView.findViewById(R.id.text_view_place_opening_hours);
+            openingHours.setText(currentPlace.getOpeningHours());
 
         }
 

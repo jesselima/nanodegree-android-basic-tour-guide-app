@@ -20,19 +20,16 @@
         android:layout_alignParentTop="true"
         android:layout_toEndOf="@id/image_view_item_list"
         android:orientation="vertical"
-        android:paddingStart="16dp">
-
+        android:paddingEnd="16dp">
         <TextView
             android:id="@+id/text_view_name"
             android:layout_width="match_parent"
             android:layout_height="25dp"
-            android:layout_weight="0"
             android:gravity="bottom"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@color/color_dark_grey"
             android:textStyle="bold"
             tools:text="Name"/>
-
         <TextView
             android:id="@+id/text_view_description"
             android:layout_width="match_parent"
@@ -44,6 +41,6 @@
             android:textAppearance="?android:textAppearanceSmall"
             android:textColor="@color/color_light_grey"
             tools:text="Description" />
-
     </RelativeLayout>
+
 </RelativeLayout>

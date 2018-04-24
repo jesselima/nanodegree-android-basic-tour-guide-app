@@ -7,7 +7,7 @@ public class Place {
     private String marker;
     private Double lat;
     private Double lng;
-
+    private String openingHours;
 
 
     public Place() {
@@ -19,6 +19,16 @@ public class Place {
         this.lat = lat;
         this.lng = lng;
     }
+
+
+    public Place(String name, String marker, Double lat, Double lng, String openingHours) {
+        this.name = name;
+        this.marker = marker;
+        this.lat = lat;
+        this.lng = lng;
+        this.openingHours = openingHours;
+    }
+
 
     public String getName() {
         return name;
@@ -52,6 +62,14 @@ public class Place {
         this.lng = lng;
     }
 
+    public String getOpeningHours() {
+        return openingHours;
+    }
+
+    public void setOpeningHours(String openingHours) {
+        this.openingHours = openingHours;
+    }
+
     @Override
     public String toString() {
         return "Place{" +
@@ -59,6 +77,7 @@ public class Place {
                 ", marker='" + marker + '\'' +
                 ", lat=" + lat +
                 ", lng=" + lng +
+                ", openingHours='" + openingHours + '\'' +
                 '}';
     }
 }

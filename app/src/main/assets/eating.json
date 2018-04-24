@@ -32,7 +32,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 8:00 PM"
     },
     {
       "id": "poi:20452351",
@@ -64,7 +64,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 8:00 PM"
     },
     {
       "id": "poi:693151",
@@ -96,7 +96,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 6:00 PM"
     },
     {
       "id": "poi:17697254",
@@ -128,7 +128,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours":"9:00 AM | 8:00 PM"
     },
     {
       "id": "poi:515887",
@@ -160,7 +160,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 7:00 PM"
     },
     {
       "id": "poi:2073226",
@@ -192,7 +192,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 7:00 PM"
     },
     {
       "id": "poi:895337",
@@ -224,7 +224,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 6:00 PM"
     },
     {
       "id": "poi:776971",
@@ -256,7 +256,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 8:00 PM"
     },
     {
       "id": "poi:19732212",
@@ -288,7 +288,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 8:00 PM"
     },
     {
       "id": "poi:701423",
@@ -321,7 +321,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 6:00 PM"
     },
     {
       "id": "poi:17697263",
@@ -353,7 +353,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 7:00 PM"
     },
     {
       "id": "poi:16922306",
@@ -385,7 +385,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 8:00 PM"
     },
     {
       "id": "poi:21360245",
@@ -417,7 +417,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 7:00 PM"
     },
     {
       "id": "poi:760555",
@@ -449,7 +449,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 8:00 PM"
     },
     {
       "id": "poi:2143082",
@@ -481,7 +481,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 6:00 PM"
     },
     {
       "id": "poi:706567",
@@ -513,7 +513,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 7:00 PM"
     },
     {
       "id": "poi:19742583",
@@ -545,7 +545,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 7:00 PM"
     },
     {
       "id": "poi:19742607",
@@ -577,7 +577,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 6:00 PM"
     },
     {
       "id": "poi:17430246",
@@ -609,7 +609,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 7:00 PM"
     },
     {
       "id": "poi:19425438",
@@ -641,7 +641,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 6:00 PM"
     },
     {
       "id": "poi:600622",
@@ -673,7 +673,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 6:00 PM"
     },
     {
       "id": "poi:488194",
@@ -705,7 +705,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 7:00 PM"
     },
     {
       "id": "poi:688128",
@@ -737,7 +737,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 8:00 PM"
     },
     {
       "id": "poi:812004",
@@ -769,7 +769,9 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 6:00 PM"
+
+
     },
     {
       "id": "poi:814883",
@@ -801,7 +803,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 8:00 PM"
     },
     {
       "id": "poi:946458",
@@ -833,7 +835,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 8:00 PM"
     },
     {
       "id": "poi:771655",
@@ -865,7 +867,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 8:00 PM"
     },
     {
       "id": "poi:397361",
@@ -897,7 +899,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 6:00 PM"
     },
     {
       "id": "poi:758062",
@@ -929,7 +931,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 8:00 PM"
     },
     {
       "id": "poi:2135779",
@@ -961,7 +963,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 6:00 PM"
     },
     {
       "id": "poi:1238033",
@@ -994,7 +996,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 6:00 PM"
     },
     {
       "id": "poi:1442344",
@@ -1026,7 +1028,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 6:00 PM"
     },
     {
       "id": "poi:2416291",
@@ -1059,7 +1061,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 7:00 PM"
     },
     {
       "id": "poi:529371",
@@ -1091,7 +1093,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 8:00 PM"
     },
     {
       "id": "poi:540591",
@@ -1123,7 +1125,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 6:00 PM"
     },
     {
       "id": "poi:396597",
@@ -1155,7 +1157,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 6:00 PM"
     },
     {
       "id": "poi:480381",
@@ -1187,7 +1189,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 8:00 PM"
     },
     {
       "id": "poi:21347643",
@@ -1219,7 +1221,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 8:00 PM"
     },
     {
       "id": "poi:19733665",
@@ -1251,7 +1253,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 8:00 PM"
     },
     {
       "id": "poi:769616",
@@ -1283,7 +1285,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 7:00 PM"
     },
     {
       "id": "poi:2214573",
@@ -1315,7 +1317,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 6:00 PM"
     },
     {
       "id": "poi:16922140",
@@ -1347,7 +1349,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 7:00 PM"
     },
     {
       "id": "poi:494984",
@@ -1379,7 +1381,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 6:00 PM"
     },
     {
       "id": "poi:704889",
@@ -1412,7 +1414,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 6:00 PM"
     },
     {
       "id": "poi:817938",
@@ -1444,7 +1446,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 7:00 PM"
     },
     {
       "id": "poi:701435",
@@ -1476,7 +1478,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 7:00 PM"
     },
     {
       "id": "poi:1443621",
@@ -1508,7 +1510,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 7:00 PM"
     },
     {
       "id": "poi:2274838",
@@ -1540,7 +1542,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 7:00 PM"
     },
     {
       "id": "poi:20805235",
@@ -1572,7 +1574,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 6:00 PM"
     },
     {
       "id": "poi:17697261",
@@ -1604,7 +1606,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 8:00 PM"
     },
     {
       "id": "poi:16931055",
@@ -1636,7 +1638,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 7:00 PM"
     },
     {
       "id": "poi:812134",
@@ -1668,7 +1670,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 6:00 PM"
     },
     {
       "id": "poi:818785",
@@ -1700,7 +1702,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 8:00 PM"
     },
     {
       "id": "poi:818009",
@@ -1732,7 +1734,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 7:00 PM"
     },
     {
       "id": "poi:697863",
@@ -1764,7 +1766,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 7:00 PM"
     },
     {
       "id": "poi:1790009",
@@ -1796,7 +1798,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 6:00 PM"
     },
     {
       "id": "poi:17697255",
@@ -1828,7 +1830,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 7:00 PM"
     },
     {
       "id": "poi:627345",
@@ -1860,7 +1862,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 8:00 PM"
     },
     {
       "id": "poi:533486",
@@ -1892,7 +1894,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 7:00 PM"
     },
     {
       "id": "poi:726428",
@@ -1924,7 +1926,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 8:00 PM"
     },
     {
       "id": "poi:758070",
@@ -1956,7 +1958,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 6:00 PM"
     },
     {
       "id": "poi:1810875",
@@ -1988,7 +1990,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 6:00 PM"
     },
     {
       "id": "poi:2245303",
@@ -2021,7 +2023,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 8:00 PM"
     },
     {
       "id": "poi:2072224",
@@ -2053,7 +2055,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 7:00 PM"
     },
     {
       "id": "poi:17121478",
@@ -2085,7 +2087,8 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 6:00 PM"
+
     },
     {
       "id": "poi:455707",
@@ -2117,7 +2120,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 6:00 PM"
     },
     {
       "id": "poi:2072667",
@@ -2150,7 +2153,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 7:00 PM"
     },
     {
       "id": "poi:2064258",
@@ -2182,7 +2185,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 6:00 PM"
     },
     {
       "id": "poi:2404076",
@@ -2214,7 +2217,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 7:00 PM"
     },
     {
       "id": "poi:1929420",
@@ -2246,7 +2249,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 6:00 PM"
     },
     {
       "id": "poi:1443896",
@@ -2278,7 +2281,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 7:00 PM"
     },
     {
       "id": "poi:1444547",
@@ -2310,7 +2313,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 7:00 PM"
     },
     {
       "id": "poi:698235",
@@ -2342,7 +2345,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 7:00 PM"
     },
     {
       "id": "poi:782516",
@@ -2374,7 +2377,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 6:00 PM"
     },
     {
       "id": "poi:16971996",
@@ -2406,7 +2409,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 7:00 PM"
     },
     {
       "id": "poi:17697264",
@@ -2438,7 +2441,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 7:00 PM"
     },
     {
       "id": "poi:19708419",
@@ -2471,7 +2474,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 7:00 PM"
     },
     {
       "id": "poi:19031098",
@@ -2503,7 +2506,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 7:00 PM"
     },
     {
       "id": "poi:2264303",
@@ -2535,7 +2538,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 6:00 PM"
     },
     {
       "id": "poi:730890",
@@ -2567,7 +2570,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 7:00 PM"
     },
     {
       "id": "poi:695547",
@@ -2599,7 +2602,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 8:00 PM"
     },
     {
       "id": "poi:946246",
@@ -2631,7 +2634,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 6:00 PM"
     },
     {
       "id": "poi:21360247",
@@ -2663,7 +2666,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 7:00 PM"
     },
     {
       "id": "poi:524081",
@@ -2695,7 +2698,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 7:00 PM"
     },
     {
       "id": "poi:529378",
@@ -2727,7 +2730,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 7:00 PM"
     },
     {
       "id": "poi:762511",
@@ -2759,7 +2762,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 8:00 PM"
     },
     {
       "id": "poi:762515",
@@ -2791,7 +2794,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 7:00 PM"
     },
     {
       "id": "poi:826021",
@@ -2823,7 +2826,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 6:00 PM"
     },
     {
       "id": "poi:1449391",
@@ -2855,7 +2858,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 7:00 PM"
     },
     {
       "id": "poi:777522",
@@ -2887,7 +2890,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 7:00 PM"
     },
     {
       "id": "poi:360068",
@@ -2919,7 +2922,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 6:00 PM"
     },
     {
       "id": "poi:517713",
@@ -2951,7 +2954,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 8:00 PM"
     },
     {
       "id": "poi:699228",
@@ -2983,7 +2986,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 8:00 PM"
     },
     {
       "id": "poi:398043",
@@ -3016,7 +3019,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 7:00 PM"
     },
     {
       "id": "poi:690013",
@@ -3048,7 +3051,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 7:00 PM"
     },
     {
       "id": "poi:499618",
@@ -3080,7 +3083,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 8:00 PM"
     },
     {
       "id": "poi:946503",
@@ -3112,7 +3115,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 6:00 PM"
     },
     {
       "id": "poi:1638131",
@@ -3145,7 +3148,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "10:00 AM | 6:00 PM"
     },
     {
       "id": "poi:19742589",
@@ -3177,7 +3180,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "9:00 AM | 7:00 PM"
     },
     {
       "id": "poi:19742585",
@@ -3210,7 +3213,7 @@
       "customer_rating": null,
       "star_rating": null,
       "star_rating_unofficial": null,
-      "thumbnail_url": null
+      "opening_hours": "7:00 AM | 6:00 PM"
     }
   ]
 }
