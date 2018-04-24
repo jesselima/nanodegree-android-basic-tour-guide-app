@@ -30,7 +30,7 @@
             android:textColor="@color/color_light_grey"
             android:textSize="14sp"
             android:typeface="sans"
-            android:text="9:00 AM | 7:00 PM"/>
+            tools:text="9:00 AM | 7:00 PM"/>
         <TextView
             android:id="@+id/text_view_place_marker"
             android:layout_width="wrap_content"
@@ -53,7 +53,7 @@
             android:layout_height="30dp"
             android:layout_gravity="center"
             android:layout_marginEnd="4dp"
-            android:src="@drawable/ic_location_on_black_48dp"/>
+            tools:src="@drawable/ic_location_on_black_48dp"/>
 
     </LinearLayout>
 

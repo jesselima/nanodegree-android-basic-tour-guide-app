@@ -30,14 +30,14 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDbHiaES6bb8CDOzvcNTjQUjUnNVCCtKIM" />
+            android:value="XXX" />
 
         <activity
             android:name=".PagerActivity"
             android:label="Attractions in Mountain View"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".StartupDetailsActivity" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity"/>
     </application>
 
 </manifest>

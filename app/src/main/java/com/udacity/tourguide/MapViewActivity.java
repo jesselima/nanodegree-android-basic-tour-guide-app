@@ -20,7 +20,7 @@ public class MapViewActivity extends AppCompatActivity implements OnMapReadyCall
     private Double lat;// = 37.386077; //37.3943566;
     private Double lng;// = -122.08338723; //-122.072174; // 37.386077,-122.08338723
 
-    private static final String MAP_VIEW_BUNDLE_KEY = "AIzaSyDbHiaES6bb8CDOzvcNTjQUjUnNVCCtKIM";
+    private static final String MAP_VIEW_BUNDLE_KEY = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
