@@ -11,30 +11,30 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:id="@+id/logoSplash"
-        android:src="@drawable/udacity"
+        android:src="@drawable/app_logo"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textSize="32sp"
+        android:textSize="24sp"
         android:textStyle="bold"
-        android:text="Tour Guide App"/>
+        android:text="@string/app_name_long"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:textSize="24sp"
         android:layout_margin="8dp"
-        android:text="Nanodegree Android Basic"/>
+        android:text="@string/course_name"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:textSize="20sp"
         android:layout_margin="8dp"
-        android:text="Project 06"/>
+        android:text="@string/project_number"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -42,5 +42,5 @@
         android:textSize="16sp"
         android:layout_marginTop="16dp"
         android:textStyle="italic"
-        android:text="by Jesse Lima"/>
+        android:text="@string/author"/>
 </LinearLayout>

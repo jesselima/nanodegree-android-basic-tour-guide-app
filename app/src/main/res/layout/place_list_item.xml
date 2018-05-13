@@ -36,7 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/color_light_grey"
-            android:textSize="12sp"
+            android:textSize="16sp"
             android:textStyle="italic"
             android:typeface="sans"
             tools:text="marker" />
@@ -53,7 +53,7 @@
             android:layout_height="30dp"
             android:layout_gravity="center"
             android:layout_marginEnd="4dp"
-            tools:src="@drawable/ic_location_on_black_48dp"/>
+            android:src="@drawable/ic_location_black"/>
 
     </LinearLayout>
 

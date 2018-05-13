@@ -30,7 +30,7 @@
         "customer_rating": null,
         "star_rating": null,
         "star_rating_unofficial": null,
-        "thumbnail_url": "https://media-cdn.sygictraveldata.com/media/poi:35852"
+        "opening_hours": "9:00 AM | 6:00 PM"
       },
       {
         "id": "poi:56987",
@@ -62,7 +62,7 @@
         "customer_rating": null,
         "star_rating": null,
         "star_rating_unofficial": null,
-        "thumbnail_url": "https://media-cdn.sygictraveldata.com/media/poi:56987"
+        "opening_hours": "10:00 AM | 7:00 PM"
       },
       {
         "id": "poi:543079",
@@ -94,7 +94,7 @@
         "customer_rating": null,
         "star_rating": null,
         "star_rating_unofficial": null,
-        "thumbnail_url": "https://media-cdn.sygictraveldata.com/media/poi:543079"
+        "opening_hours": "9:00 AM | 8:00 PM"
       },
       {
         "id": "poi:35878",
@@ -127,7 +127,7 @@
         "customer_rating": null,
         "star_rating": null,
         "star_rating_unofficial": null,
-        "thumbnail_url": "https://media-cdn.sygictraveldata.com/media/poi:35878"
+        "opening_hours": "10:00 AM | 8:00 PM"
       },
       {
         "id": "poi:541088",
@@ -159,7 +159,7 @@
         "customer_rating": null,
         "star_rating": null,
         "star_rating_unofficial": null,
-        "thumbnail_url": "https://media-cdn.sygictraveldata.com/media/poi:541088"
+        "opening_hours": "9:00 AM | 6:00 PM"
       },
       {
         "id": "poi:35859",
@@ -191,7 +191,7 @@
         "customer_rating": null,
         "star_rating": null,
         "star_rating_unofficial": null,
-        "thumbnail_url": "https://media-cdn.sygictraveldata.com/media/poi:35859"
+        "opening_hours": "9:00 AM | 7:00 PM"
       },
       {
         "id": "poi:16634476",
@@ -223,7 +223,7 @@
         "customer_rating": null,
         "star_rating": null,
         "star_rating_unofficial": null,
-        "thumbnail_url": null
+        "opening_hours": "10:00 AM | 8:00 PM"
       },
       {
         "id": "poi:35855",
@@ -255,7 +255,7 @@
         "customer_rating": null,
         "star_rating": null,
         "star_rating_unofficial": null,
-        "thumbnail_url": "https://media-cdn.sygictraveldata.com/media/poi:35855"
+        "opening_hours": "10:00 AM | 8:00 PM"
       },
       {
         "id": "poi:35877",
@@ -287,7 +287,7 @@
         "customer_rating": null,
         "star_rating": null,
         "star_rating_unofficial": null,
-        "thumbnail_url": null
+        "opening_hours": "9:00 AM | 6:00 PM"
       },
       {
         "id": "poi:35870",
@@ -319,7 +319,7 @@
         "customer_rating": null,
         "star_rating": null,
         "star_rating_unofficial": null,
-        "thumbnail_url": null
+        "opening_hours": "9:00 AM | 8:00 PM"
       },
       {
         "id": "poi:35843",
@@ -353,7 +353,7 @@
         "customer_rating": null,
         "star_rating": null,
         "star_rating_unofficial": null,
-        "thumbnail_url": null
+        "opening_hours": "10:00 AM | 7:00 PM"
       },
       {
         "id": "poi:1519646",
@@ -385,7 +385,7 @@
         "customer_rating": null,
         "star_rating": null,
         "star_rating_unofficial": null,
-        "thumbnail_url": null
+        "opening_hours": "7:00 AM | 7:00 PM"
       },
       {
         "id": "poi:25056204",
@@ -418,7 +418,7 @@
         "customer_rating": null,
         "star_rating": null,
         "star_rating_unofficial": null,
-        "thumbnail_url": null
+        "opening_hours": "10:00 AM | 6:00 PM"
       },
       {
         "id": "poi:398043",
@@ -451,7 +451,7 @@
         "customer_rating": null,
         "star_rating": null,
         "star_rating_unofficial": null,
-        "thumbnail_url": null
+        "opening_hours": "9:00 AM | 8:00 PM"
       },
       {
         "id": "poi:689240",
@@ -483,7 +483,7 @@
         "customer_rating": null,
         "star_rating": null,
         "star_rating_unofficial": null,
-        "thumbnail_url": null
+        "opening_hours": "9:00 AM | 7:00 PM"
       },
       {
         "id": "poi:2066464",
@@ -515,7 +515,7 @@
         "customer_rating": null,
         "star_rating": null,
         "star_rating_unofficial": null,
-        "thumbnail_url": null
+        "opening_hours": "7:00 AM | 8:00 PM"
       },
       {
         "id": "poi:690074",
@@ -547,7 +547,7 @@
         "customer_rating": null,
         "star_rating": null,
         "star_rating_unofficial": null,
-        "thumbnail_url": null
+        "opening_hours": "10:00 AM | 6:00 PM"
       },
       {
         "id": "poi:1443904",
@@ -579,7 +579,7 @@
         "customer_rating": null,
         "star_rating": null,
         "star_rating_unofficial": null,
-        "thumbnail_url": null
+        "opening_hours": "7:00 AM | 7:00 PM"
       },
       {
         "id": "poi:1925744",
@@ -611,7 +611,7 @@
         "customer_rating": null,
         "star_rating": null,
         "star_rating_unofficial": null,
-        "thumbnail_url": null
+        "opening_hours": "10:00 AM | 8:00 PM"
       },
       {
         "id": "poi:19118064",
@@ -643,7 +643,7 @@
         "customer_rating": null,
         "star_rating": null,
         "star_rating_unofficial": null,
-        "thumbnail_url": null
+        "opening_hours": "7:00 AM | 6:00 PM"
       },
       {
         "id": "poi:1067268",
@@ -675,7 +675,7 @@
         "customer_rating": null,
         "star_rating": null,
         "star_rating_unofficial": null,
-        "thumbnail_url": null
+        "opening_hours": "10:00 AM | 6:00 PM"
       },
       {
         "id": "poi:1566852",
@@ -707,7 +707,7 @@
         "customer_rating": null,
         "star_rating": null,
         "star_rating_unofficial": null,
-        "thumbnail_url": null
+        "opening_hours": "10:00 AM | 7:00 PM"
       },
       {
         "id": "poi:1548353",
@@ -739,7 +739,7 @@
         "customer_rating": null,
         "star_rating": null,
         "star_rating_unofficial": null,
-        "thumbnail_url": null
+        "opening_hours": "9:00 AM | 8:00 PM"
       },
       {
         "id": "poi:1084006",
@@ -771,7 +771,7 @@
         "customer_rating": null,
         "star_rating": null,
         "star_rating_unofficial": null,
-        "thumbnail_url": null
+        "opening_hours": "7:00 AM | 7:00 PM"
       }
     ]
   }

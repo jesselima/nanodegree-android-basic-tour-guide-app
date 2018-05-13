@@ -4,7 +4,6 @@ package com.udacity.tourguide.fragments;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -30,11 +29,9 @@ import java.util.ArrayList;
  */
 public class SportsFragment extends Fragment {
 
-
     public SportsFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -64,16 +61,18 @@ public class SportsFragment extends Fragment {
             for (int i = 0; i < placesJsonArray.length(); i++) {
 
                 JSONObject placeData = placesJsonArray.getJSONObject(i);
-
-                String name = placeData.getString("name");
-                String marker = placeData.getString("marker");
-
+                    String name = placeData.getString("name");
+                    String openingHours = placeData.getString("opening_hours");
+                    String marker = placeData.getString("marker");
+                        marker = marker.replaceAll(".*?:", "");
+                        marker = marker.replaceAll("_", " ");
+                        String type = "Type: ";
+                        String markerType = type + marker;
                 JSONObject LatLng = placeData.getJSONObject("location");
-                Double lat = LatLng.getDouble("lat");
-                Double lng = LatLng.getDouble("lng");
+                    Double lat = LatLng.getDouble("lat");
+                    Double lng = LatLng.getDouble("lng");
 
-                Place data = new Place(name, marker, lat, lng);
-
+                Place data = new Place(name, markerType, lat, lng, openingHours);
                 places.add(data);
             }
 
@@ -82,10 +81,8 @@ public class SportsFragment extends Fragment {
         }
 
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);
-
         ListView listView = rootView.findViewById(R.id.list_view);
         listView.setAdapter(adapter);
-
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
@@ -100,7 +97,5 @@ public class SportsFragment extends Fragment {
             }
         });
         return rootView;
-
     }
-
 }

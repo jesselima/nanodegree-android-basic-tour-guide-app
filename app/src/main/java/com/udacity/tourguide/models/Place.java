@@ -13,14 +13,6 @@ public class Place {
     public Place() {
     }
 
-    public Place(String name, String marker, Double lat, Double lng) {
-        this.name = name;
-        this.marker = marker;
-        this.lat = lat;
-        this.lng = lng;
-    }
-
-
     public Place(String name, String marker, Double lat, Double lng, String openingHours) {
         this.name = name;
         this.marker = marker;

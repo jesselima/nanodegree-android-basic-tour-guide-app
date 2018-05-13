@@ -6,4 +6,24 @@
     <string name="tab_tile_sports">Sports</string>
     <string name="tab_tile_tour">Tour</string>
     <string name="tab_tile_shopping">Shopping</string>
+    <string name="question_main_activity">Why tech lovers love Mountain View?</string>
+    <string name="answer_question_main_activity">The answer is pretty easy. It concentrates a large ecosystem of Startups. If You like tech stuff You gonna love the city.</string>
+    <string name="see_attractions">See attractions!</string>
+    <string name="google">Google</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="the_city">The City</string>
+    <string name="upwork">Upwork</string>
+    <string name="elastic">Elastic</string>
+    <string name="name">Name:</string>
+    <string name="industry">Industry:</string>
+    <string name="founded">Founded:</string>
+    <string name="founders">Founders:</string>
+    <string name="site">Site:</string>
+    <string name="about">About:</string>
+    <string name="address">Address:</string>
+    <string name="see_on_map">See on Map</string>
+    <string name="course_name">Nanodegree Android Basic</string>
+    <string name="project_number">Project 06</string>
+    <string name="author">by Jesse Lima</string>
+    <string name="gallery">Gallery</string>
 </resources>

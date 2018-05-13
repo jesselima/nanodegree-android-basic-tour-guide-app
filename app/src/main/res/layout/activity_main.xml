@@ -2,14 +2,12 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:animateLayoutChanges="true"
-    android:background="@color/color_bg_light"
+    android:background="@color/color_bg_light2"
     android:orientation="vertical">
-
 
     <ScrollView
         android:layout_width="match_parent"
@@ -23,134 +21,243 @@
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/margin_16"
-                android:layout_marginRight="@dimen/margin_16"
-                android:layout_marginTop="@dimen/margin_16"
-                android:layout_marginBottom="@dimen/margin_8"
-                android:backgroundTint="@color/cardBackgroundAlpha"
+                android:layout_margin="@dimen/margin_16"
+                android:backgroundTint="@color/color_white"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="30dp">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
-
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="@dimen/layout_margin8"
                         android:layout_marginStart="@dimen/layout_margin8"
                         android:layout_marginTop="@dimen/layout_margin8"
-                        android:layout_marginBottom="@dimen/layout_margin8"
-                        android:text="Why tech lovers love Mountain View?"
+                        android:text="@string/question_main_activity"
                         android:textSize="@dimen/text_size_20"
                         android:textStyle="bold"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/layout_margin8"
                         android:layout_marginStart="@dimen/layout_margin8"
                         android:layout_marginTop="@dimen/layout_margin8"
-                        android:layout_marginBottom="@dimen/layout_margin8"
-                        android:text="The answer is pretty easy. It concentrates a large ecosystem of Startups."
+                        android:text="@string/answer_question_main_activity"
                         android:textAllCaps="false"
                         android:textSize="@dimen/text_size_16"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/layout_margin8"
+                        android:layout_marginStart="@dimen/layout_margin8"
+                        android:layout_marginTop="@dimen/layout_margin8"
+                        android:gravity="center"
+                        android:text="@string/gallery"
+                        android:textSize="@dimen/text_size_16"
+                        android:textStyle="bold"/>
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/margin_16"
+                        android:layout_marginStart="@dimen/margin_16">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/margin_16"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="300dp"
+                                    android:layout_height="250dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginEnd="@dimen/margin_4"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/slider_google_hq"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="30dp"
+                                    android:background="@color/color_bg_white_alpha"
+                                    android:gravity="start"
+                                    android:padding="@dimen/margin_4"
+                                    android:text="@string/google"
+                                    android:textAllCaps="true"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="320dp"
+                                    android:layout_height="250dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginEnd="@dimen/margin_4"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/slider_google_complex"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="30dp"
+                                    android:background="@color/color_bg_white_alpha"
+                                    android:gravity="start"
+                                    android:padding="@dimen/margin_4"
+                                    android:text="@string/google"
+                                    android:textAllCaps="true"
+                                    android:textStyle="bold"/>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="300dp"
+                                    android:layout_height="250dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginEnd="@dimen/margin_4"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/slider_linkedin"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="30dp"
+                                    android:background="@color/color_bg_white_alpha"
+                                    android:gravity="start"
+                                    android:padding="@dimen/margin_4"
+                                    android:text="@string/linkedin"
+                                    android:textAllCaps="true"
+                                    android:textStyle="bold"/>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="300dp"
+                                    android:layout_height="250dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginEnd="@dimen/margin_4"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/slider_linkedin_room"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="30dp"
+                                    android:background="@color/color_bg_white_alpha"
+                                    android:gravity="start"
+                                    android:padding="@dimen/margin_4"
+                                    android:text="@string/linkedin"
+                                    android:textAllCaps="true"
+                                    android:textStyle="bold"/>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="300dp"
+                                    android:layout_height="250dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginEnd="@dimen/margin_4"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/slider_mountain_view"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="30dp"
+                                    android:background="@color/color_bg_white_alpha"
+                                    android:gravity="start"
+                                    android:padding="@dimen/margin_4"
+                                    android:text="@string/the_city"
+                                    android:textAllCaps="true"
+                                    android:textStyle="bold"/>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="300dp"
+                                    android:layout_height="250dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginEnd="@dimen/margin_4"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/slider_upwork"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="30dp"
+                                    android:background="@color/color_bg_white_alpha"
+                                    android:gravity="start"
+                                    android:padding="@dimen/margin_4"
+                                    android:text="@string/upwork"
+                                    android:textAllCaps="true"
+                                    android:textStyle="bold"/>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="300dp"
+                                    android:layout_height="250dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginEnd="@dimen/margin_4"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/slider_elastic"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="30dp"
+                                    android:background="@color/color_bg_white_alpha"
+                                    android:gravity="start"
+                                    android:padding="@dimen/margin_4"
+                                    android:text="@string/elastic"
+                                    android:textAllCaps="true"
+                                    android:textStyle="bold"/>
+                            </RelativeLayout>
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
 
                     <Button
                         android:id="@+id/btn_see_attractions"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="@dimen/layout_margin8"
-                        android:textAlignment="center"
-                        android:text="See attractions!"
                         android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/layout_margin8"
+                        android:backgroundTint="@color/colorAccent"
+                        android:text="@string/see_attractions"
+                        android:textAlignment="center"
                         android:textAllCaps="true"
-                        android:textColor="@color/callToActionText"
+                        android:textColor="@color/color_white"
                         android:textSize="@dimen/text_size_16"
                         android:textStyle="bold"/>
                 </LinearLayout>
+
             </android.support.v7.widget.CardView>
 
-            <ImageView
-                android:layout_height="150dp"
-                android:layout_width="match_parent"
-                android:layout_margin="@dimen/margin_16"
-                android:layout_gravity="center"
-                android:scaleType="centerCrop"
-                android:src="@drawable/slider_google_complex"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Google"
-                android:textStyle="bold"
-                android:textAllCaps="true"
-                android:layout_gravity="center"
-                android:layout_marginBottom="@dimen/margin_8"/>
-
-            <ImageView
-                android:layout_height="150dp"
-                android:layout_width="match_parent"
-                android:layout_margin="@dimen/margin_16"
-                android:layout_gravity="center"
-                android:scaleType="centerCrop"
-                android:src="@drawable/slider_linkedin"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Linkedin"
-                android:textStyle="bold"
-                android:textAllCaps="true"
-                android:layout_gravity="center"
-                android:layout_marginBottom="@dimen/margin_8"/>
-
-            <ImageView
-                android:layout_height="150dp"
-                android:layout_width="match_parent"
-                android:layout_margin="@dimen/margin_16"
-                android:scaleType="centerCrop"
-                android:layout_gravity="center"
-                android:src="@drawable/slider_mountain_view"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="The City"
-                android:textStyle="bold"
-                android:textAllCaps="true"
-                android:layout_gravity="center"
-                android:layout_marginBottom="@dimen/margin_8"/>
 
 
-            <ImageView
-                android:layout_height="150dp"
-                android:layout_width="match_parent"
-                android:layout_margin="@dimen/margin_16"
-                android:scaleType="centerCrop"
-                android:layout_gravity="center"
-                android:src="@drawable/slider_upwork"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Upwork"
-                android:textStyle="bold"
-                android:textAllCaps="true"
-                android:layout_gravity="center"
-                android:layout_marginBottom="@dimen/margin_8"/>
-
-            <ImageView
-                android:layout_height="150dp"
-                android:layout_width="match_parent"
-                android:layout_margin="@dimen/margin_16"
-                android:scaleType="centerCrop"
-                android:layout_gravity="center"
-                android:src="@drawable/slider_elastic"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Elastic"
-                android:textStyle="bold"
-                android:textAllCaps="true"
-                android:layout_gravity="center"
-                android:layout_marginBottom="@dimen/margin_8"/>
 
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
+

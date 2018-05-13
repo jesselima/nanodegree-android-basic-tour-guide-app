@@ -17,8 +17,8 @@ public class MapViewActivity extends AppCompatActivity implements OnMapReadyCall
     private MapView mapView;
     private GoogleMap gmap;
 
-    private Double lat;// = 37.386077; //37.3943566;
-    private Double lng;// = -122.08338723; //-122.072174; // 37.386077,-122.08338723
+    private Double lat;
+    private Double lng;
 
     private static final String MAP_VIEW_BUNDLE_KEY = "";
 
@@ -27,14 +27,9 @@ public class MapViewActivity extends AppCompatActivity implements OnMapReadyCall
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map_view);
 
-
         Bundle locationData = getIntent().getExtras();
         lat = locationData.getDouble("lat");
         lng = locationData.getDouble("lng");
-
-//        Toolbar tb = findViewById(R.id.toolbar);
-//        setSupportActionBar(tb);
-//        tb.setSubtitle("MapView");
 
         Bundle mapViewBundle = null;
         if (savedInstanceState != null) {
@@ -92,11 +87,6 @@ public class MapViewActivity extends AppCompatActivity implements OnMapReadyCall
     @Override
     public void onMapReady(GoogleMap googleMap) {
         gmap = googleMap;
-//        gmap.setMinZoomPreference(13);
-//        LatLng ny = new LatLng(latitude, longitude);
-//        gmap.moveCamera(CameraUpdateFactory.newLatLng(ny));
-
-        gmap = googleMap;
         gmap.setMinZoomPreference(13);
         gmap.setIndoorEnabled(true);
         UiSettings uiSettings = gmap.getUiSettings();
@@ -110,16 +100,16 @@ public class MapViewActivity extends AppCompatActivity implements OnMapReadyCall
         uiSettings.setTiltGesturesEnabled(true);
         uiSettings.setZoomGesturesEnabled(true);
 
-        LatLng ny = new LatLng(lat, lng);
+        LatLng latLng = new LatLng(lat, lng);
 
         MarkerOptions markerOptions = new MarkerOptions();
-        markerOptions.position(ny);
+        markerOptions.position(latLng);
         gmap.addMarker(markerOptions);
 
         CameraPosition.Builder camBuilder = CameraPosition.builder();
         camBuilder.bearing(0);
         camBuilder.tilt(30);
-        camBuilder.target(ny);
+        camBuilder.target(latLng);
         camBuilder.zoom(10);
 
         CameraPosition cp = camBuilder.build();

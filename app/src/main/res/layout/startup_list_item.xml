@@ -7,17 +7,16 @@
 
     <ImageView
         android:id="@+id/image_view_item_list"
-        android:layout_width="50dp"
+        android:layout_width="70dp"
         android:layout_height="50dp"
         android:layout_margin="16dp"/>
 
     <RelativeLayout
         android:id="@+id/text_container"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/margin_16"
-        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
         android:layout_toEndOf="@id/image_view_item_list"
         android:orientation="vertical"
         android:paddingEnd="16dp">
@@ -31,13 +30,11 @@
             android:textStyle="bold"
             tools:text="Name"/>
         <TextView
-            android:id="@+id/text_view_description"
+            android:id="@+id/text_view_industry"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/text_view_name"
-            android:layout_weight="1"
-            android:gravity="top"
-            android:maxLines="3"
+            android:maxLines="2"
             android:textAppearance="?android:textAppearanceSmall"
             android:textColor="@color/color_light_grey"
             tools:text="Description" />

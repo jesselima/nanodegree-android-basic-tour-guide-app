@@ -37,8 +37,4 @@ public class PagerActivity extends AppCompatActivity {
 
     }
 
-    public void goToMapView(View view){
-        Intent intent = new Intent(this, MapViewActivity.class);
-        startActivity(intent);
-    }
 }

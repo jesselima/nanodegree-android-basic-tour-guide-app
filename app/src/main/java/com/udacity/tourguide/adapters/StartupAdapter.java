@@ -34,16 +34,12 @@ public class StartupAdapter extends ArrayAdapter<Startup> {
             TextView name = listItemView.findViewById(R.id.text_view_name);
             name.setText(currentStartup.getName());
 
-            TextView description = listItemView.findViewById(R.id.text_view_description);
-            description.setText(currentStartup.getDescription());
+            TextView industry = listItemView.findViewById(R.id.text_view_industry);
+            industry.setText(currentStartup.getIndustry());
 
             ImageView imageView = listItemView.findViewById(R.id.image_view_item_list);
             imageView.setImageResource(currentStartup.getmImageResourceId());
-
-
-
         }
-
         return listItemView;
     }
 }
