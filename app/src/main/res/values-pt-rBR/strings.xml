@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Guia de Turismo</string>
+    <string name="app_name_long">Guia de Turismo Mountain View</string>
+    <string name="tab_tile_startups">Startups</string>
+    <string name="tab_tile_eating">Comida</string>
+    <string name="tab_tile_sports">Esporte</string>
+    <string name="tab_tile_tour">Passeio</string>
+    <string name="question_main_activity">Porque amantes da tecnologia amam Mountain View?</string>
+    <string name="answer_question_main_activity">A resposta é muito fácil. Ela concentra o maior ecosistema de Startups no mundo. Se você gosta de coisas de tecnologia você vai amar a cidade.</string>
+    <string name="see_attractions">Ver atrações!</string>
+    <string name="google">Google</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="the_city">A cidade</string>
+    <string name="upwork">Upwork</string>
+    <string name="elastic">Elastic</string>
+    <string name="name">Nome:</string>
+    <string name="industry">Industria:</string>
+    <string name="founded">Fundada em:</string>
+    <string name="founders">Fundadores:</string>
+    <string name="site">Site:</string>
+    <string name="about">Sobre:</string>
+    <string name="address">Endereço:</string>
+    <string name="see_on_map">Ver no mapa</string>
+    <string name="course_name">Nanodegree Android Basic</string>
+    <string name="project_number">Projeto 06</string>
+    <string name="author">por Jesse Lima</string>
+    <string name="gallery">Galeria</string>
+</resources>
