@@ -12,6 +12,9 @@ import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+/**
+ * MapView implementation guideline from http://www.zoftino.com/android-mapview-tutorial
+ */
 public class MapViewActivity extends AppCompatActivity implements OnMapReadyCallback{
 
     private MapView mapView;

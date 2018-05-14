@@ -16,12 +16,12 @@ public class SplashScreenActivity extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                goToWelcomeActivity();
+                goToMainActivity();
             }
         }, 3000);
     }
 
-    private void goToWelcomeActivity(){
+    private void goToMainActivity(){
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
         finish();
