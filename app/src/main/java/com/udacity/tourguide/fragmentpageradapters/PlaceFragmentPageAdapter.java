@@ -64,5 +64,4 @@ public class PlaceFragmentPageAdapter extends FragmentPagerAdapter{
         }
     }
 
-
 }

@@ -139,8 +139,8 @@ public class StartupsFragment extends Fragment {
                 String founders =       startups.get(position).getFounders();
                 String site =           startups.get(position).getSite();
                 String industry =       startups.get(position).getIndustry();
-                String address =       startups.get(position).getAddress();
-                int imageResourceId =          startups.get(position).getmImageResourceId();
+                String address =        startups.get(position).getAddress();
+                int imageResourceId =   startups.get(position).getmImageResourceId();
 
                 Intent intent = new Intent(getContext(), StartupDetailsActivity.class);
                     intent.putExtra("name", name);

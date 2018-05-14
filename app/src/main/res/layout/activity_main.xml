@@ -77,8 +77,8 @@
                                 android:layout_marginBottom="@dimen/margin_16"
                                 android:orientation="vertical">
                                 <ImageView
-                                    android:layout_width="300dp"
-                                    android:layout_height="250dp"
+                                    android:layout_width="270dp"
+                                    android:layout_height="230dp"
                                     android:layout_gravity="center"
                                     android:layout_marginEnd="@dimen/margin_4"
                                     android:scaleType="centerCrop"
@@ -101,8 +101,8 @@
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
                                 <ImageView
-                                    android:layout_width="320dp"
-                                    android:layout_height="250dp"
+                                    android:layout_width="270dp"
+                                    android:layout_height="230dp"
                                     android:layout_gravity="center"
                                     android:layout_marginEnd="@dimen/margin_4"
                                     android:scaleType="centerCrop"
@@ -124,8 +124,8 @@
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
                                 <ImageView
-                                    android:layout_width="300dp"
-                                    android:layout_height="250dp"
+                                    android:layout_width="270dp"
+                                    android:layout_height="230dp"
                                     android:layout_gravity="center"
                                     android:layout_marginEnd="@dimen/margin_4"
                                     android:scaleType="centerCrop"
@@ -147,8 +147,8 @@
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
                                 <ImageView
-                                    android:layout_width="300dp"
-                                    android:layout_height="250dp"
+                                    android:layout_width="270dp"
+                                    android:layout_height="230dp"
                                     android:layout_gravity="center"
                                     android:layout_marginEnd="@dimen/margin_4"
                                     android:scaleType="centerCrop"
@@ -170,8 +170,8 @@
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
                                 <ImageView
-                                    android:layout_width="300dp"
-                                    android:layout_height="250dp"
+                                    android:layout_width="270dp"
+                                    android:layout_height="230dp"
                                     android:layout_gravity="center"
                                     android:layout_marginEnd="@dimen/margin_4"
                                     android:scaleType="centerCrop"
@@ -193,8 +193,8 @@
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
                                 <ImageView
-                                    android:layout_width="300dp"
-                                    android:layout_height="250dp"
+                                    android:layout_width="270dp"
+                                    android:layout_height="230dp"
                                     android:layout_gravity="center"
                                     android:layout_marginEnd="@dimen/margin_4"
                                     android:scaleType="centerCrop"
@@ -216,8 +216,8 @@
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
                                 <ImageView
-                                    android:layout_width="300dp"
-                                    android:layout_height="250dp"
+                                    android:layout_width="270dp"
+                                    android:layout_height="230dp"
                                     android:layout_gravity="center"
                                     android:layout_marginEnd="@dimen/margin_4"
                                     android:scaleType="centerCrop"
@@ -253,9 +253,6 @@
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
-
-
-
 
         </LinearLayout>
     </ScrollView>

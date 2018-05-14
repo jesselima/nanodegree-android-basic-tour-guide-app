@@ -101,6 +101,4 @@ public class TourFragment extends Fragment {
         return rootView;
 
     }
-
-
 }

@@ -28,8 +28,8 @@ public class MapViewActivity extends AppCompatActivity implements OnMapReadyCall
         setContentView(R.layout.activity_map_view);
 
         Bundle locationData = getIntent().getExtras();
-        lat = locationData.getDouble("lat");
-        lng = locationData.getDouble("lng");
+            lat = locationData.getDouble("lat");
+            lng = locationData.getDouble("lng");
 
         Bundle mapViewBundle = null;
         if (savedInstanceState != null) {
@@ -114,7 +114,6 @@ public class MapViewActivity extends AppCompatActivity implements OnMapReadyCall
 
         CameraPosition cp = camBuilder.build();
         gmap.moveCamera(CameraUpdateFactory.newCameraPosition(cp));
-
 
     }
 }

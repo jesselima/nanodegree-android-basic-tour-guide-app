@@ -99,5 +99,4 @@ public class EatingFragment extends Fragment {
         return rootView;
 
     }
-
 }

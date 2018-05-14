@@ -1,11 +1,9 @@
 package com.udacity.tourguide;
 
-import android.content.Intent;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 
 import com.udacity.tourguide.fragmentpageradapters.PlaceFragmentPageAdapter;
 
@@ -34,7 +32,5 @@ public class PagerActivity extends AppCompatActivity {
         //   3. Set the tab layout's tab names with the view pager's adapter's titles
         //      by calling onPageTitle()
         tabLayout.setupWithViewPager(viewPager);
-
     }
-
 }
