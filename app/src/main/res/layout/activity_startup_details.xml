@@ -36,7 +36,7 @@
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="wrap_content"
-                        tools:text="@string/name"
+                        android:text="@string/name"
                         android:textSize="@dimen/text_size_sub_heading_16"
                         android:textStyle="bold"/>
                     <TextView
