@@ -8,6 +8,39 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- Titles text. -->
+    <style name="textTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginBottom">@dimen/layout_margin8</item>
+        <item name="android:layout_marginStart">@dimen/layout_margin8</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin8</item>
+        <item name="android:textSize">@dimen/text_size_20</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- SubTitle text. -->
+    <style name="textSubTitle" parent="CardView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/layout_margin8</item>
+        <item name="android:layout_marginStart">@dimen/layout_margin8</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin8</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- Body text. -->
+    <style name="textBody">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/layout_margin8</item>
+        <item name="android:layout_marginStart">@dimen/layout_margin8</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin8</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+
     <!-- MainActivity - Gallery Image -->
     <style name="gallery_image" parent="CardView">
         <item name="android:layout_width">300dp</item>
@@ -17,7 +50,7 @@
         <item name="android:scaleType">centerCrop</item>
     </style>
 
-    <!-- MainActivity - Gallery Text -->
+    <!-- MainActivity - Gallery Text (Overlay text) -->
     <style name="gallery_image_text" parent="CardView">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -29,23 +62,16 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="cardViewSample" parent="CardView">
-        <item name="android:layout_width">80dp</item>
+    <style name="buttonCallToAction" >
+        <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginLeft">10dp</item>
-        <item name="cardCornerRadius">8dp</item>
-        <item name="cardElevation">5dp</item>
-        <item name="cardBackgroundColor">@color/color_light_grey</item>
-        <item name="android:paddingBottom">@dimen/layout_margin8</item>
-    </style>
-
-    <style name="test" parent="CardView">
-        <item name="android:layout_width">80dp</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginLeft">10dp</item>
-        <item name="cardCornerRadius">8dp</item>
-        <item name="cardElevation">5dp</item>
-        <item name="cardBackgroundColor">@color/color_light_grey</item>
-        <item name="android:paddingBottom">@dimen/layout_margin8</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/layout_margin8</item>
+        <item name="android:backgroundTint">@color/colorAccent</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:textStyle">bold</item>
     </style>
 </resources>
