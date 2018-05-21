@@ -9,11 +9,43 @@
     </style>
 
     <!-- MainActivity - Gallery Image -->
-    <style name="gallery_image">
+    <style name="gallery_image" parent="CardView">
         <item name="android:layout_width">300dp</item>
         <item name="android:layout_height">250dp</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:layout_marginEnd">@dimen/margin_4</item>
         <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- MainActivity - Gallery Text -->
+    <style name="gallery_image_text" parent="CardView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:background">@color/color_bg_white_alpha</item>
+        <item name="android:padding">@dimen/margin_4</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="cardViewSample" parent="CardView">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">5dp</item>
+        <item name="cardBackgroundColor">@color/color_light_grey</item>
+        <item name="android:paddingBottom">@dimen/layout_margin8</item>
+    </style>
+
+    <style name="test" parent="CardView">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">5dp</item>
+        <item name="cardBackgroundColor">@color/color_light_grey</item>
+        <item name="android:paddingBottom">@dimen/layout_margin8</item>
     </style>
 </resources>

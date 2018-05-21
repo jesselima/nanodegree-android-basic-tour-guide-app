@@ -74,95 +74,46 @@
                             <RelativeLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginBottom="@dimen/margin_16"
-                                android:orientation="vertical">
+                                android:layout_marginBottom="@dimen/margin_16">
                                 <ImageView
-                                    android:layout_width="270dp"
-                                    android:layout_height="230dp"
-                                    android:layout_gravity="center"
-                                    android:layout_marginEnd="@dimen/margin_4"
-                                    android:scaleType="centerCrop"
+                                    style="@style/gallery_image"
                                     android:src="@drawable/slider_google_hq"/>
-
                                 <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="30dp"
-                                    android:background="@color/color_bg_white_alpha"
-                                    android:gravity="start"
-                                    android:padding="@dimen/margin_4"
-                                    android:text="@string/google"
-                                    android:textAllCaps="true"
-                                    android:textStyle="bold" />
+                                    style="@style/gallery_image_text"
+                                    android:text="@string/google"/>
                             </RelativeLayout>
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:orientation="vertical">
+                                android:layout_height="wrap_content">
                                 <ImageView
-                                    android:layout_width="270dp"
-                                    android:layout_height="230dp"
-                                    android:layout_gravity="center"
-                                    android:layout_marginEnd="@dimen/margin_4"
-                                    android:scaleType="centerCrop"
+                                    style="@style/gallery_image"
                                     android:src="@drawable/slider_google_complex"/>
                                 <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="30dp"
-                                    android:background="@color/color_bg_white_alpha"
-                                    android:gravity="start"
-                                    android:padding="@dimen/margin_4"
-                                    android:text="@string/google"
-                                    android:textAllCaps="true"
-                                    android:textStyle="bold"/>
+                                    style="@style/gallery_image_text"
+                                    android:text="@string/google"/>
                             </RelativeLayout>
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:orientation="vertical">
+                                android:layout_height="wrap_content">
                                 <ImageView
-                                    android:layout_width="270dp"
-                                    android:layout_height="230dp"
-                                    android:layout_gravity="center"
-                                    android:layout_marginEnd="@dimen/margin_4"
-                                    android:scaleType="centerCrop"
+                                    style="@style/gallery_image"
                                     android:src="@drawable/slider_linkedin"/>
                                 <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="30dp"
-                                    android:background="@color/color_bg_white_alpha"
-                                    android:gravity="start"
-                                    android:padding="@dimen/margin_4"
-                                    android:text="@string/linkedin"
-                                    android:textAllCaps="true"
-                                    android:textStyle="bold"/>
+                                    style="@style/gallery_image_text"
+                                    android:text="@string/linkedin"/>
                             </RelativeLayout>
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:orientation="vertical">
+                                android:layout_height="wrap_content">
                                 <ImageView
-                                    android:layout_width="270dp"
-                                    android:layout_height="230dp"
-                                    android:layout_gravity="center"
-                                    android:layout_marginEnd="@dimen/margin_4"
-                                    android:scaleType="centerCrop"
+                                    style="@style/gallery_image"
                                     android:src="@drawable/slider_linkedin_room"/>
                                 <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="30dp"
-                                    android:background="@color/color_bg_white_alpha"
-                                    android:gravity="start"
-                                    android:padding="@dimen/margin_4"
-                                    android:text="@string/linkedin"
-                                    android:textAllCaps="true"
-                                    android:textStyle="bold"/>
+                                    style="@style/gallery_image_text"
+                                    android:text="@string/linkedin"/>
                             </RelativeLayout>
 
                             <RelativeLayout
@@ -170,68 +121,33 @@
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
                                 <ImageView
-                                    android:layout_width="270dp"
-                                    android:layout_height="230dp"
-                                    android:layout_gravity="center"
-                                    android:layout_marginEnd="@dimen/margin_4"
-                                    android:scaleType="centerCrop"
+                                    style="@style/gallery_image"
                                     android:src="@drawable/slider_mountain_view"/>
                                 <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="30dp"
-                                    android:background="@color/color_bg_white_alpha"
-                                    android:gravity="start"
-                                    android:padding="@dimen/margin_4"
-                                    android:text="@string/the_city"
-                                    android:textAllCaps="true"
-                                    android:textStyle="bold"/>
+                                    style="@style/gallery_image_text"
+                                    android:text="@string/the_city"/>
                             </RelativeLayout>
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:orientation="vertical">
+                                android:layout_height="wrap_content">
                                 <ImageView
-                                    android:layout_width="270dp"
-                                    android:layout_height="230dp"
-                                    android:layout_gravity="center"
-                                    android:layout_marginEnd="@dimen/margin_4"
-                                    android:scaleType="centerCrop"
+                                    style="@style/gallery_image"
                                     android:src="@drawable/slider_upwork"/>
                                 <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="30dp"
-                                    android:background="@color/color_bg_white_alpha"
-                                    android:gravity="start"
-                                    android:padding="@dimen/margin_4"
-                                    android:text="@string/upwork"
-                                    android:textAllCaps="true"
-                                    android:textStyle="bold"/>
+                                    style="@style/gallery_image_text"
+                                    android:text="@string/upwork"/>
                             </RelativeLayout>
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:orientation="vertical">
+                                android:layout_height="wrap_content">
                                 <ImageView
-                                    android:layout_width="270dp"
-                                    android:layout_height="230dp"
-                                    android:layout_gravity="center"
-                                    android:layout_marginEnd="@dimen/margin_4"
-                                    android:scaleType="centerCrop"
+                                    style="@style/gallery_image"
                                     android:src="@drawable/slider_elastic"/>
                                 <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="30dp"
-                                    android:background="@color/color_bg_white_alpha"
-                                    android:gravity="start"
-                                    android:padding="@dimen/margin_4"
-                                    android:text="@string/elastic"
-                                    android:textAllCaps="true"
-                                    android:textStyle="bold"/>
+                                    style="@style/gallery_image_text"
+                                    android:text="@string/elastic"/>
                             </RelativeLayout>
 
                         </LinearLayout>

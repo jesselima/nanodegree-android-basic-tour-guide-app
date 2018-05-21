@@ -52,14 +52,11 @@ public class StartupDetailsActivity extends AppCompatActivity {
                 String address,
                 int imageResourceId){
 
-        TextView startupName = findViewById(R.id.text_view_name);
-        startupName.setText(name);
-
-        TextView startupFounded = findViewById(R.id.text_view_founded);
-        startupFounded.setText(String.valueOf(founded));
-
-        TextView startupFounders = findViewById(R.id.text_view_founders);
-        startupFounders.setText(founders);
+        // Get the id of root ViewGroup at the item_startup_details.xml and update its child views.
+        updateUiReusingLayouts(R.id.name, R.string.name ,name);
+        updateUiReusingLayouts(R.id.industry, R.string.industry , industry);
+        updateUiReusingLayouts(R.id.founded, R.string.founded ,String.valueOf(founded));
+        updateUiReusingLayouts(R.id.founders, R.string.founders ,founders);
 
         TextView startupSite = findViewById(R.id.text_view_site);
         startupSite.setText(site);
@@ -72,9 +69,6 @@ public class StartupDetailsActivity extends AppCompatActivity {
             }
         });
 
-        TextView startupIndustry = findViewById(R.id.text_view_industry);
-        startupIndustry.setText(industry);
-
         TextView startupAddress = findViewById(R.id.text_view_address);
         startupAddress.setText(address);
 
@@ -84,5 +78,16 @@ public class StartupDetailsActivity extends AppCompatActivity {
         ImageView startupLogo = findViewById(R.id.image_view_logo);
         startupLogo.setImageResource(imageResourceId);
 
+    }
+
+    public void updateUiReusingLayouts(int resourceIdViewGroup, int resourceIdlabel, String text){
+
+        View line = findViewById(resourceIdViewGroup);
+
+        TextView lineLabel = line.findViewById(R.id.text_view_label);
+        lineLabel.setText(resourceIdlabel);
+
+        TextView lineData = line.findViewById(R.id.text_view_data);
+        lineData.setText(text);
     }
 }

@@ -20,6 +20,8 @@ public class PlaceFragmentPageAdapter extends FragmentPagerAdapter{
     /** Context of the app */
     private Context mContext;
 
+    private static final Integer PAGE_NUMBER = 4;
+
     /**
      * Create a new {@link PlaceFragmentPageAdapter} object.
      *
@@ -48,7 +50,7 @@ public class PlaceFragmentPageAdapter extends FragmentPagerAdapter{
 
     @Override
     public int getCount() {
-        return 4;
+        return PAGE_NUMBER;
     }
 
     @Override

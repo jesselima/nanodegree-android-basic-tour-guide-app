@@ -73,4 +73,5 @@
     <string name="address_livongo">441 Logue Ave, Mountain View, CA 94043, USA</string>
     <string name="address_punchh">201 San Antonio Cir #250, Mountain View, CA 94040, USA</string>
     <string name="address_pure_storage">650 Castro St #400, Mountain View, CA 94041, USA</string>
+    <string name="label">Label:</string>
 </resources>
