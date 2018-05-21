@@ -22,22 +22,38 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         // Check if the existing view is being reused, otherwise inflate the view
-        View listItemView = convertView;
-        if (listItemView == null){
-            listItemView = LayoutInflater.from(getContext()).inflate(
+        //View listItemView = convertView;
+        ViewHolder holder;
+
+        if (convertView == null){
+
+            convertView = LayoutInflater.from(getContext()).inflate(
                     R.layout.place_list_item, parent, false);
 
-            Place currentPlace = getItem(position);
+            holder = new ViewHolder();
 
-            TextView name = listItemView.findViewById(R.id.text_view_place_name);
-            name.setText(currentPlace.getName());
+            holder.textViewName = convertView.findViewById(R.id.text_view_place_name);
+            holder.textViewMarker = convertView.findViewById(R.id.text_view_place_marker);
+            holder.textViewOpeningHours = convertView.findViewById(R.id.text_view_place_opening_hours);
 
-            TextView marker = listItemView.findViewById(R.id.text_view_place_marker);
-            marker.setText(currentPlace.getMarker());
+            convertView.setTag(holder);
 
-            TextView openingHours = listItemView.findViewById(R.id.text_view_place_opening_hours);
-            openingHours.setText(currentPlace.getOpeningHours());
+        } else {
+            holder = (ViewHolder) convertView.getTag();
         }
-        return listItemView;
+
+        Place place = getItem(position);
+
+        holder.textViewName.setText(place.getName());
+        holder.textViewMarker.setText(place.getMarker());
+        holder.textViewOpeningHours.setText(place.getOpeningHours());
+
+        return convertView;
+    }
+
+    private class ViewHolder{
+        private TextView textViewName;
+        private TextView textViewMarker;
+        private TextView textViewOpeningHours;
     }
 }
