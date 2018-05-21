@@ -22,7 +22,6 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         // Check if the existing view is being reused, otherwise inflate the view
-        //View listItemView = convertView;
         ViewHolder holder;
 
         if (convertView == null){

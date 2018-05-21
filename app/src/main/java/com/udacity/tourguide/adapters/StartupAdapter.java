@@ -24,22 +24,34 @@ public class StartupAdapter extends ArrayAdapter<Startup> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         // Check if the existing view is being reused, otherwise inflate the view
-        View listItemView = convertView;
-        if (listItemView == null){
-            listItemView = LayoutInflater.from(getContext()).inflate(
+        ViewHolder viewHolder;
+
+        if (convertView == null){
+            convertView = LayoutInflater.from(getContext()).inflate(
                     R.layout.startup_list_item, parent, false);
 
-            Startup currentStartup = getItem(position);
+            viewHolder = new ViewHolder();
 
-            TextView name = listItemView.findViewById(R.id.text_view_name);
-            name.setText(currentStartup.getName());
+            viewHolder.textViewName = convertView.findViewById(R.id.text_view_name);
+            viewHolder.textViewIndustry = convertView.findViewById(R.id.text_view_industry);
+            viewHolder.imageViewResourceId = convertView.findViewById(R.id.image_view_item_list);
 
-            TextView industry = listItemView.findViewById(R.id.text_view_industry);
-            industry.setText(currentStartup.getIndustry());
+            convertView.setTag(viewHolder);
 
-            ImageView imageView = listItemView.findViewById(R.id.image_view_item_list);
-            imageView.setImageResource(currentStartup.getmImageResourceId());
+        }else {
+            viewHolder = (ViewHolder) convertView.getTag();
         }
-        return listItemView;
+        Startup startup = getItem(position);
+        viewHolder.textViewName.setText(startup.getName());
+        viewHolder.textViewIndustry.setText(startup.getIndustry());
+        viewHolder.imageViewResourceId.setImageResource(startup.getmImageResourceId());
+
+        return convertView;
+    }
+
+    private class ViewHolder{
+        private TextView textViewName;
+        private TextView textViewIndustry;
+        private ImageView imageViewResourceId;
     }
 }
